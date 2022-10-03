@@ -1,0 +1,27 @@
+version: '3'
+services:
+    web:
+        image: nginx:latest
+        build:
+            context: .
+            dockerfile: nginx.dockerfile
+        ports:
+            - "80:80"
+        volumes:
+            - ./nginx.conf:/etc/nginx/conf.d/app.conf
+            - ./src:/src
+        depends_on:
+            - php
+    php:
+        image: php:latest
+        build:
+            context: .
+            dockerfile: PHP.dockerfile
+        environment:
+            - DB_SERVER=${DB_SERVER}
+            - DB_USER=${DB_ROOT_USER}
+            - DB_PASSWORD=${DB_ROOT_PASSWORD}
+        volumes:
+            - ./src:/src
+            # - ./custom.php.ini:/usr/local/etc/php/conf.d/php.ini
+            # not quite sure about the custom.php.ini and what is it for
