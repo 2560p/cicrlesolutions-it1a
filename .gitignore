@@ -1,1 +1,5 @@
 .DS_Store
+PHP.dockerfile
+docker-compose.yaml
+nginx.conf
+nginx.dockerfile
