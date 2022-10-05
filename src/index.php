@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-<title>Test page</title>
-</head>
+<? $pageTitle = "it works!";
+include "../components/head_element.php"; ?>
 
 <body>
-<h1>hello if u can see this, then it is working bad</h1>
+<? include "../components/header.php"; ?>
+<p>and here the content goes, some other stuff, etc, etc</p>
 </body>
 
 </html>

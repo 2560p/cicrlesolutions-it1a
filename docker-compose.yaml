@@ -23,5 +23,4 @@ services:
             - DB_PASSWORD=${DB_ROOT_PASSWORD}
         volumes:
             - ./src:/src
-            # - ./custom.php.ini:/usr/local/etc/php/conf.d/php.ini
-            # not quite sure about the custom.php.ini and what is it for
+            - ./components:/components
