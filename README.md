@@ -3,6 +3,8 @@ the website sources are located in `src/` and `components/` folders
 
 root files also include docker files (to have the project running on every system easily), `.gitignore` (for the macos' `.DS_Store`, and config files not to get changed by a mistake), and this file (readme)
 
+the structure of the website - the pages are located in `src/` folder; they do include some repetitive elements, which are located in `components/` folder. 
+
 ## running
 to set up a php server, open Command Prompt and run `dokcer-compose up` while in the root directory of this project (make sure `src/` folder is visible). the port 80 will be exposed and accessible via the browser (http://localhost:80)
 
