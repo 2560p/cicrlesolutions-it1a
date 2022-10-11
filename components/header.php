@@ -18,3 +18,5 @@
         <li><a href="">Contact</a></li>
     </ul>
 </header>
+
+<div id="mainGrid">

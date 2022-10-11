@@ -1,10 +1,6 @@
-<? $pageTitle = "it works!";
+<? $pageTitle = "Frequently Asked Questions";
 $cssFile = "faq";
-include "../components/head_element.php"; ?>
-
-<body>
-<? include "../components/header.php"; ?>
-    <div id="gridContainer">
+include "../components/header.php"; ?>
 	    <div id="flexTitle">
 			<p class="classTitle">Frequently asked questions</p>
 		</div>

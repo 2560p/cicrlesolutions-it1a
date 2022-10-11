@@ -3,9 +3,12 @@
     padding: 0;
 }
 
+#mainGrid {
+    display: grid;
+    grid-template-columns: 10% repeat(5, 1fr) 10%;
+}
 
-
-@font-face{
+@font-face {
     font-family: "Calibre Semi-Bold";
     src: url("./Calibre-Semibold.otf");
 }
@@ -20,6 +23,7 @@ header {
     position: sticky;
     top: 0px;
     font-family: "Calibre Semi-Bold";
+    /* grid-column: 1/8; */
 }
 
 header ul li {
@@ -46,13 +50,11 @@ header ul {
     grid-column: 7/11;
 }
 
-#firstHref{
+#firstHref {
     grid-column: 2/3;
     align-self: center;
 }
 
-main {
-    /*margin-bottom: 137px;*/
-    height: 2000px;
+footer {
+    grid-column: 1/8;
 }
-

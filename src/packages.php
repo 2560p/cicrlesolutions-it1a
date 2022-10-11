@@ -1,9 +1,7 @@
-<? $pageTitle = "it works!";
+<? $pageTitle = "Packages";
 $cssFile = "index";
-include "../components/head_element.php"; ?>
+include "../components/header.php"; ?>
 
-<body>
-<? include "../components/header.php"; ?>
     <main>
 	<h1>Packages</h1>
 	<h2>Circle Workspace</h2>

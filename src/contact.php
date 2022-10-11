@@ -1,11 +1,6 @@
-<? $pageTitle = "it works!";
+<? $pageTitle = "Contact us";
 $cssFile = "contact";
-include "../components/head_element.php"; ?>
-
-	<body>
-		<div class="gridContainer">
-			<? include "../components/header.php"; ?>
-
+include "../components/header.php"; ?>
 			<div class="contactFormContainer">
 					<h1>Contact us</h1>
 				<div class="contactBox">
@@ -38,7 +33,4 @@ include "../components/head_element.php"; ?>
 				</div>
 			</div>
 
-<!--			<? include "../components/footer.php"; ?> -->
-		</div>
-	</body>
-	</html>
+<? include "../components/footer.php"; ?>
