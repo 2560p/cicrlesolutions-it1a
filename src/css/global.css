@@ -2,3 +2,57 @@
     margin: 0;
     padding: 0;
 }
+
+
+
+@font-face{
+    font-family: "Calibre Semi-Bold";
+    src: url("./Calibre-Semibold.otf");
+}
+
+header {
+    background-color: #C7EAF8;
+    width: 100%;
+    height: 137px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(11, 1fr);
+    position: sticky;
+    top: 0px;
+    font-family: "Calibre Semi-Bold";
+}
+
+header ul li {
+    list-style: none;
+    display: inline;
+    margin-left: 10px;
+}
+
+header a {
+    color: #799DAB;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Calibre Semi-Bold";
+}
+
+header a:hover {
+    color: #CF943C;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-column: 7/11;
+}
+
+#firstHref{
+    grid-column: 2/3;
+    align-self: center;
+}
+
+main {
+    /*margin-bottom: 137px;*/
+    height: 2000px;
+}
+
