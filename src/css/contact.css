@@ -8,10 +8,6 @@
 	grid-column: 2/7;
 }
 
-.contactForm {
-	
-}
-
-.textInputs {
-	display: ;
+.contactBox {
+	display: flex;
 }

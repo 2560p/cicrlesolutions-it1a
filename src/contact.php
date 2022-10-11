@@ -7,9 +7,8 @@ include "../components/head_element.php"; ?>
 <!--			<? include "../components/header.php"; ?> -->
 
 			<div class="contactFormContainer">
-				<div class="contactForm">
 					<h1>Contact us</h1>
-
+				<div class="contactBox">
 					<form name="contact" action="contact.php" method="GET">
 
 						<input type="text" name="firstName" placeholder="First Name...">
@@ -25,10 +24,15 @@ include "../components/head_element.php"; ?>
 						<input type="submit" name="submit" value="Send message">
 
 					</form>
-				</div>
+				
 
-				<div class="contactInformation">
-					
+					<div class="contactInformation">
+						<p>Some address 1, 1010 NL, Emmen</p>
+						<p>+31 6 12 34 56 78</p>
+						<p>circlesolutions@email.com</p>
+
+						<img src="img/map.jpg" width="210px" height="140px">
+					</div>
 				</div>
 			</div>
 
