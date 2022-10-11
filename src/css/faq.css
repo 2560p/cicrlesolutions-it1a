@@ -1,0 +1,80 @@
+/*
+	@font-face {
+	  font-family: "calibreBold";
+	  src: url('fonts/Calibre-Bold.otf');
+	}
+	The ones I need for the faq: bold, semibold, light, regular. 
+ */
+#gridContainer{
+	display:grid;
+	grid-template-columns: repeat(7, 1fr);
+    padding: 0px;
+}
+
+#flexTitle{
+	grid-column: 1/4;
+	display: flex;
+	justify-content:center;
+	margin-top: 114px;
+	margin-bottom: 81px;
+	
+}
+
+.classTitle{
+	font-size: 50px;
+	margin-left: 150px;
+	color: #799DAB;
+	font-weight: bold;
+}
+
+#flexBanner{
+	grid-column: 2/7;
+	
+}
+
+.classBannertitle{
+	font-size: 30px;
+	margin-left: 150px;
+	color: #799DAB;
+	font-weight: semibold;
+}
+
+.classBannertext{
+	font-size: 20px;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 40px;
+	color: #546D77;
+	font-weight: light;
+}
+
+#flexContact{
+	grid-column: 3/6;
+	display:flex;
+	
+	margin-top: 40px;
+	margin-bottom: 90px;
+	justify-content: center;
+}
+
+.classContact{
+	list-style-type: none;
+	padding: 0;
+	font-size: 50px;
+	padding: 0;
+	color: #799DAB;
+	font-weight: regular;
+}
+
+.classContactus{
+	text-align: center;
+	color: #F0790E;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.classContactus:hover {
+  text-shadow: 1px 5px 5px rgba(33,33,33,.2); 
+}
+
+
