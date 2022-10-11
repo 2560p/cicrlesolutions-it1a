@@ -4,25 +4,27 @@ include "../components/head_element.php"; ?>
 
 	<body>
 		<div class="gridContainer">
-<!--			<? include "../components/header.php"; ?> -->
+			<? include "../components/header.php"; ?>
 
 			<div class="contactFormContainer">
 					<h1>Contact us</h1>
 				<div class="contactBox">
 					<form name="contact" action="contact.php" method="GET">
+						<div class="firstInputBox">
+							<div class="try1">
+								<input class="textInputs" type="text" name="firstName" placeholder="First Name...">
+								<input class="textInputs" type="text" name="lastName" placeholder="Last Name...">
+							</div>
+							<div class="try2">
+								<input class="textInputs" type="text" name="email" placeholder="Email..." required>
+								<input class="textInputs" type="text" name="contactNumber" placeholder="Contact Number...">
+							</div>
+						
 
-						<input type="text" name="firstName" placeholder="First Name...">
+							<textarea name="message">Message</textarea>
 
-						<input type="text" name="lastName" placeholder="Last Name...">
-
-						<input type="text" name="email" placeholder="Email..." required>
-
-						<input type="text" name="contactNumber" placeholder="Contact Number...">
-
-						<textarea name="message">Message</textarea>
-
-						<input type="submit" name="submit" value="Send message">
-
+							<input type="submit" name="submit" value="Send message">
+						</div>
 					</form>
 				
 
