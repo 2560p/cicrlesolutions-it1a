@@ -3,11 +3,37 @@
 	grid-template-columns: repeat(7, 1fr);
 }
 
+header {
+	grid-column: 1/8;
+	margin-bottom: 40px;
+}
+
 .contactFormContainer {
 	background-color: lightblue;
 	grid-column: 2/7;
+	height: 500px;
 }
 
 .contactBox {
 	display: flex;
+	justify-content: space-around;
+}
+
+.firstInputBox {
+	display: flex;
+}
+
+.textInputs {
+	margin-bottom: 12px;
+}
+
+.try1 {
+	display: flex;
+	flex-direction: column;
+}
+
+.try2 {
+	display: flex;
+	flex-direction: column;
+	margin-left: 22px;
 }
