@@ -2,3 +2,5 @@
 *.dockerfile
 docker-compose.yaml
 nginx.conf
+.idea
+
