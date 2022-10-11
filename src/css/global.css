@@ -3,14 +3,69 @@
     padding: 0;
 }
 
-#mainGrid {
-    display: grid;
-    grid-template-columns: 10% repeat(5, 1fr) 10%;
+/* fonts time */
+/* we do not use italics, no reason to load them */
+@font-face {
+    font-family: "Calibre";
+    font-weight: 300;
+    src: url("../fonts/Calibre-Light.otf");
 }
 
 @font-face {
-    font-family: "Calibre Semi-Bold";
-    src: url("./Calibre-Semibold.otf");
+    font-family: "Calibre";
+    font-weight: 500;
+    src: url("../fonts/Calibre-Medium.otf");
+}
+
+@font-face {
+    font-family: "Calibre";
+    font-weight: 600;
+    src: url("../fonts/Calibre-Semibold.otf");
+}
+
+@font-face {
+    font-family: "Calibre";
+    font-weight: 700;
+    src: url("../fonts/Calibre-Bold.otf");
+}
+
+/* predefined text styles */
+h1 {
+    font-family: "Calibre";
+    font-weight: 700;
+}
+
+h2 {
+    font-family: "Calibre";
+    font-weight: 600;
+}
+
+h3 {
+    font-family: "Calibre";
+    font-weight: 500;
+}
+
+p,
+li,
+a {
+    font-family: "Calibre";
+    font-weight: 300;
+}
+
+input {
+    font-family: "Calibre";
+    font-weight: 500;
+}
+
+b,
+strong {
+    font-family: "Calibre";
+    font-weight: 700;
+}
+
+#mainGrid {
+    display: grid;
+    grid-template-columns: 10% repeat(5, 1fr) 10%;
 }
 
 header {
@@ -36,7 +91,8 @@ header a {
     color: #799DAB;
     text-decoration: none;
     font-size: 25px;
-    font-family: "Calibre Semi-Bold";
+    font-family: "Calibre";
+    font-weight: 600;
 }
 
 header a:hover {
