@@ -1,0 +1,17 @@
+.gridContainer {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+}
+
+.contactFormContainer {
+	background-color: lightblue;
+	grid-column: 2/7;
+}
+
+.contactForm {
+	
+}
+
+.textInputs {
+	display: ;
+}
