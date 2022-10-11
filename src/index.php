@@ -1,9 +1,6 @@
 <? $pageTitle = "it works!";
 $cssFile = "index";
-include "../components/head_element.php"; ?>
-
-<body>
-<? include "../components/header.php"; ?>
+include "../components/header.php"; ?>
     <main>
     <div id="main-heading">
                             <h1>circle solutions</h1>
@@ -37,9 +34,4 @@ include "../components/head_element.php"; ?>
     <p>More Information</p>
     </div>
     </main>
-
-
 <? include "../components/footer.php"; ?>
-</body>
-</html>
-

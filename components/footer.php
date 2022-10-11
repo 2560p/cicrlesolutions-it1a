@@ -5,3 +5,5 @@
         <li>another something</li>
     </ul>
 </footer>
+<body>
+</html>
