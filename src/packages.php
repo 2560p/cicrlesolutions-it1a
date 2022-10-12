@@ -69,6 +69,3 @@ include "../components/header.php"; ?>
     </main>
 
 <? include "../components/footer.php"; ?>
-
-</body>
-</html>
