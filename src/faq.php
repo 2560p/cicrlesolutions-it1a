@@ -20,9 +20,9 @@ include "../components/header.php"; ?>
 		<div id="flexBanner">
 			<h2 class="classBannertitle">What is an intranet?</h2>
 			<p class="classBannertext">
-				Intranet means a closed network that resides on a local network.
+				Intranet means a closed network that resides on a local network. 
 				An intranet acts like a website that only authorized users can access and is generally used 
-				by organizations who wish to share knowledge,internal communications, and information with their 
+				by organizations who wish to share knowledge, internal communications, and information with their 
 				colleagues.
 			</p>
 			<h2 class="classBannertitle">What is the difference between the internet and an intranet?</h2>
@@ -112,3 +112,6 @@ include "../components/header.php"; ?>
 		</div>
     </div>
 <? include "../components/footer.php"; ?>
+</body>
+</html>
+
