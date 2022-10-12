@@ -9,31 +9,76 @@ header {
 }
 
 .contactFormContainer {
-	background-color: lightblue;
+	background-color: #C7EAF8;
 	grid-column: 2/7;
-	height: 500px;
+	margin-left: 50px;
+	margin-right: 50px;
+	height: 550px;
+	margin-bottom: 40px;
 }
 
 .contactBox {
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
+	height: 100%;
 }
 
-.firstInputBox {
+.inputFlexBox {
 	display: flex;
+	flex-direction: column;
+	width: 600px;
 }
 
 .textInputs {
-	margin-bottom: 12px;
+	margin-bottom: 18px;
+	width: 250px;
+	height: 35px;
+	padding-left: 5px;
 }
 
-.try1 {
+.textInputBox {
 	display: flex;
 	flex-direction: column;
 }
 
-.try2 {
+.textarea {
+	width: 593px;
+	height: 200px;
+	resize: none;
+	padding-left: 5px;
+	padding-top: 5px;
+	margin-top: 20px;
+}
+
+.mapImage {
+	border: solid 2px #799DAB;
+}
+
+.boxForInput {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contactTitle {
+	margin-top: ;
+	margin-left: ;
+}
+
+.bottomForm {
 	display: flex;
 	flex-direction: column;
-	margin-left: 22px;
+	align-items: center;
+}
+
+.submit {
+	width: 120px;
+	height: 40px;
+	padding: 12px;
+	margin-top: 20px;
+
+	border-radius: 6px;
+	background-color: #799DAB;
+	border: none;
+	
 }
