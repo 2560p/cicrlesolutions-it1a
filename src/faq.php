@@ -2,7 +2,7 @@
 $cssFile = "faq";
 include "../components/header.php"; ?>
 	    <div id="flexTitle">
-			<p class="classTitle">Frequently asked questions</p>
+			<h1 class="classTitle">Frequently asked questions</h1>
 		</div>
 		<div id="flexCircles">
 			<svg class="classCircles1" viewBox="0 0 605 617" fill="none">
