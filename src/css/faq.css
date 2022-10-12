@@ -1,12 +1,12 @@
-#flexTitle{
+#flexTitle {
 	grid-column: 1/4;
 	display: flex;
-	justify-content:center;
+	justify-content: center;
 	margin-top: 114px;
 	margin-bottom: 81px;
 }
 
-.classTitle{
+.classTitle {
 	font-size: 70px;
 	margin-left: 150px;
 	color: #799DAB;
@@ -14,18 +14,18 @@
 	font-weight: 700;
 }
 
-#flexBanner{
+#flexBanner {
 	grid-column: 2/7;
 }
 
-.classBannertitle{
+.classBannertitle {
 	font-size: 30px;
 	margin-left: 150px;
 	color: #799DAB;
-	
+
 }
 
-.classBannertext{
+.classBannertext {
 	font-size: 23px;
 	margin-left: 150px;
 	margin-right: 150px;
@@ -33,15 +33,15 @@
 	color: #546D77;
 }
 
-#flexContact{
+#flexContact {
 	grid-column: 3/6;
-	display:flex;
+	display: flex;
 	margin-top: 40px;
 	margin-bottom: 90px;
 	justify-content: center;
 }
 
-.classContact{
+.classContact {
 	list-style-type: none;
 	padding: 0;
 	font-size: 50px;
@@ -49,51 +49,52 @@
 	color: #799DAB;
 }
 
-.classQuestions{
+.classQuestions {
 	font-family: "Calibre";
-    font-weight: 400;
+	font-weight: 400;
 }
 
-.classContactus{
+.classContactus {
 	text-align: center;
 	color: #F0790E;
 	text-decoration: none;
 	font-family: "Calibre";
 	font-weight: 700;
+	transition: text-shadow .1s linear
 }
 
 .classContactus:hover {
-  text-shadow: 1px 5px 5px rgba(33,33,33,.2); 
+	text-shadow: 1px 5px 5px rgba(33, 33, 33, .2);
 }
 
-#flexCircles{
-	grid-column:4/7;
-	display:flex;
-	justify-content:center;
+#flexCircles {
+	grid-column: 4/7;
+	display: flex;
+	justify-content: center;
 }
 
-.classCircles1{
-	width: 500px; 
+.classCircles1 {
+	width: 500px;
 	height: 617px;
 	margin-top: 50px;
-	position:absolute;
+	position: absolute;
 	z-index: -1;
 }
 
-.classCircles2{
-	width: 500px; 
+.classCircles2 {
+	width: 500px;
 	height: 617px;
 	margin-top: 50px;
-	position:absolute;
+	position: absolute;
 	z-index: -1;
 	left: 100px;
 }
 
-.classCircles3{
-	width: 500px; 
+.classCircles3 {
+	width: 500px;
 	height: 617px;
 	margin-top: 50px;
-	position:absolute;
+	position: absolute;
 	z-index: -1;
 	right: 200px;
 }
