@@ -1,13 +1,18 @@
 <? $pageTitle = "Packages";
 $cssFile = "packages";
 include "../components/header.php"; ?>
-    <main>
 	<div id="flexTitle">
-		<h1 class="classTitle">Packages</h1>
-		<h2 class="classSubtitle">Circle Workspace</h2>
+		<ul>
+			<li><h1 class="classTitle">Packages</h1></li>
+			<li><h2 class="classSubtitle">Circle Workspace</h2></li>
+		</ul>
 	</div>
-	<img class="classImage1" src= "img/package_image1.jpeg"	alt= "package image 1">
-	<h3>App management</h3>
+	<div id="flexImage1">
+		<img class="classImage1" src= "img/package_image1.png"	alt= "package image 1">
+	</div>
+	
+	
+		<h3>App management</h3>
 		<p>Create a workplace in minutes. We also want to make work easy for workplace administrators. We make it possible to create a role- and conditions-based workplace that combines all your current and future technologies within one workplace.</p>
 	<h3>Communication and information</h3>
 		<p>Display information from applications directly in Circle Workspace. At a glance, see all your unread emails, appointments, news, recently edited documents and more.</p>
@@ -17,12 +22,7 @@ include "../components/header.php"; ?>
 		<p>Pricing: 1-50 users €140,00 per month, 51-500 users €760,00 per month</p>
 	
 	<h2>Circle D.O.T.S.</h2>
-<img
-	src= "img/package_image2.jpeg"
-	alt= "package image2"
-	width= "600px"
-	height= "480px"
->
+<img class="classImage2" src= "img/package_image2.png" alt= "package image2" >
 	<h3>Internal communications</h3>
 		<p>Keep everyone informed, no matter the change, things change – especially in the world today. Keeping everyone on the same page is a challenge for global businesses. Circle D.O.T.S. makes it easy to target and distribute news to the right people, analyse the impact and optimize the message. The result? Everyone gets where you’re going.</p>
 	<h3>Connect and engage</h3>
@@ -36,31 +36,12 @@ include "../components/header.php"; ?>
 	
 	<h1>special package</h1>
 	
-<img
-	src= "img/encrypted_file.PNG"
-	alt= "encrypted_file image"
-	width= "600px"
-	height= "480px"
->
-	<h3>Encrypted files</h3>
-<img
-	src= "img/map.jpg"
-	alt= "map image"
-	width= "600px"
-	height= "480px"
->
-	<h3>Gps tracking for police</h3>
-<img
-	src= "img/instant_messaging.PNG"
-	alt= "instant messaging image"
-	width= "600px"
-	height= "480"
->
-	<h3>Instant messaging</h3>
-	
-<a href="contact.php">Contact us for more information</a>
+	<div id="flexImages">
+		<img class="classEncrypted" src= "img/encrypted_file.png" alt= "encrypted_file image">
+		<img class="classMap" src= "img/map.png" alt= "map image">
+		<img class="classMessaging" src= "img/instant_messaging.png" alt= "instant messaging image">
+	</div>
 
-	
-	
-    </main>
+	<a href="contact.php">Contact us for more information</a>
+
 <? include "../components/footer.php"; ?>
