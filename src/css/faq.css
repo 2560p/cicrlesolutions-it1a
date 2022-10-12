@@ -21,10 +21,11 @@
 }
 
 .classTitle{
-	font-size: 50px;
+	font-size: 70px;
 	margin-left: 150px;
 	color: #799DAB;
-	font-weight: bold;
+	font-family: "Calibre";
+	font-weight: 700;
 }
 
 #flexBanner{
@@ -36,7 +37,7 @@
 	font-size: 30px;
 	margin-left: 150px;
 	color: #799DAB;
-	font-weight: semibold;
+	
 }
 
 .classBannertext{
@@ -63,7 +64,12 @@
 	font-size: 50px;
 	padding: 0;
 	color: #799DAB;
-	font-weight: regular;
+	
+}
+
+.classQuestions{
+	font-family: "Calibre";
+    font-weight: 400;
 }
 
 .classContactus{
@@ -78,3 +84,34 @@
 }
 
 
+#flexCircles{
+	grid-column:4/7;
+	display:flex;
+	justify-content:center;
+}
+
+.classCircles1{
+	width: 500px; 
+	height: 617px;
+	margin-top: 50px;
+	position:absolute;
+	z-index: -1;
+}
+
+.classCircles2{
+	width: 500px; 
+	height: 617px;
+	margin-top: 50px;
+	position:absolute;
+	z-index: -1;
+	left: 100px;
+}
+
+.classCircles3{
+	width: 500px; 
+	height: 617px;
+	margin-top: 50px;
+	position:absolute;
+	z-index: -1;
+	right: 200px;
+}

@@ -13,6 +13,12 @@
 
 @font-face {
     font-family: "Calibre";
+    font-weight: 400;
+    src: url("../fonts/Calibre-Regular.otf");
+}
+
+@font-face {
+    font-family: "Calibre";
     font-weight: 500;
     src: url("../fonts/Calibre-Medium.otf");
 }
