@@ -13,6 +13,5 @@
         <a href=""><img src="https://raw.githubusercontent.com/2560p/cicrlesolutions-it1a/main/src/img/Location.png" alt="phone logo"></a>
     </div>
 </footer>
-</div>
 </body>
 </html>
