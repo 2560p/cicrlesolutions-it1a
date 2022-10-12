@@ -112,6 +112,3 @@ include "../components/header.php"; ?>
 		</div>
     </div>
 <? include "../components/footer.php"; ?>
-</body>
-</html>
-
