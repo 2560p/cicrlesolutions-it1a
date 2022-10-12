@@ -1,0 +1,20 @@
+#flexTitle{
+	grid-column: 1/5;
+	display:flex;
+}
+
+.classTitle{
+	font-size: 70px;
+	margin-left: 150px;
+	color: #799DAB;
+}
+
+.classSubtitle{
+	font-size: 35px;
+	margin-left: 150px;
+	color: #799DAB;
+}
+.classImage1{
+	width: 614px;
+	height: 474px;
+}

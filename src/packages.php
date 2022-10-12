@@ -1,16 +1,12 @@
 <? $pageTitle = "Packages";
-$cssFile = "index";
+$cssFile = "packages";
 include "../components/header.php"; ?>
-
     <main>
-	<h1>Packages</h1>
-	<h2>Circle Workspace</h2>
-<img
-	src= "img/package_image1.jpeg"
-	alt= "package image 1"
-	width= "600px"
-	height= "480px"
->
+	<div id="flexTitle">
+		<h1 class="classTitle">Packages</h1>
+		<h2 class="classSubtitle">Circle Workspace</h2>
+	</div>
+	<img class="classImage1" src= "img/package_image1.jpeg"	alt= "package image 1">
 	<h3>App management</h3>
 		<p>Create a workplace in minutes. We also want to make work easy for workplace administrators. We make it possible to create a role- and conditions-based workplace that combines all your current and future technologies within one workplace.</p>
 	<h3>Communication and information</h3>
@@ -67,5 +63,4 @@ include "../components/header.php"; ?>
 	
 	
     </main>
-
 <? include "../components/footer.php"; ?>
