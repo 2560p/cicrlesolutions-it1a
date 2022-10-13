@@ -1,4 +1,58 @@
-main {
-    background-color: grey;
+#mainheading{
+    grid-column: 2/4;
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
 }
 
+#secondheading{
+    grid-column: 4/7;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 150px;
+}
+
+#secondheading img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#secondheading ul {
+    margin-left: 85px;
+    font-family: "Calibre";
+    font-weight: 250;
+    color: #799DAB;
+    font-size: 30px;
+}
+
+.title{
+    font-family: "Calibre";
+    font-weight: 700;
+    font-size: 75px;
+    color: #799DAB;
+}
+
+.subtitle{
+    font-family: "Calibre";
+    font-weight: 300;
+    color: #799DAB;
+    font-size: 40px;
+}
+
+.nobullet{
+    list-style-type: none;
+    padding:0;
+}
+
+.circles{
+    width: 768px;
+    height:808px;
+    position: absolute;
+    z-index: -1;
+    left: 230px;
+    margin-top: 35px;
+}
