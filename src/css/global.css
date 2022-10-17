@@ -79,7 +79,7 @@ header {
     background-color: rgba(199, 234, 248, .95);
     /* width: 100%; */
     grid-column: 1/8;
-    height: 137px;
+    height: 100px;
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(11, 1fr);
@@ -100,7 +100,7 @@ header ul li {
 header a {
     color: #799DAB;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 18px;
     font-family: "Calibre";
     font-weight: 600;
 }
@@ -127,7 +127,7 @@ footer {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(7, 1fr);
-    height: 205px;
+    height: 150px;
     width: 100%;
     background-color: #C7EAF8;
     grid-column: 1/8;
@@ -137,11 +137,11 @@ footer section {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 30px;
     background-color: #799DAB;
-    width: 50px;
-    height: 50px;
+    width: 37px;
+    height: 37px;
     display: flex;
     justify-content: center;
-    margin-top: 81px;
+    margin-top: 64px;
 }
 
 footer div section a {
@@ -149,10 +149,10 @@ footer div section a {
 }
 
 footer img {
-    width: 40px;
-    height: 40px;
+    width: 29px;
+    height: 29px;
     align-self: center;
-    margin-top: 5px;
+    margin-top: 4px;
 }
 
 footer div {
@@ -168,7 +168,7 @@ footer div {
     display: flex;
     justify-content: center;
     grid-column: 4/7;
-    gap: 50px;
+    gap: 37.5px;
     margin-left: 180px;
     align-self: center;
     gap: 10px;

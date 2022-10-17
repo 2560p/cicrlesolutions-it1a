@@ -1,0 +1,53 @@
+section{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(8, 1fr);
+
+}
+#firstCircles{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    grid-column: 2/3;
+}
+
+.firstText{
+    grid-column: 5/8;
+    display: flex;
+    margin-top: 110px;
+    flex-direction: column;
+}
+.firstText p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #546D77;
+}
+
+.firstText h2{
+    color: #799DAB;
+    font-size: 30px;
+}
+
+.getTextDown{
+    margin-top: 50px;
+}
+
+#vision{
+    display: flex;
+    grid-column: 2/2;
+    color: #799DAB;
+    font-size: 40px;
+    width: 350px;
+    margin-left: 70px;
+}
+
+#secondSV{
+    grid-column: 3/7;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    /*	width: 200px;
+        height: 200px;*/
+}
