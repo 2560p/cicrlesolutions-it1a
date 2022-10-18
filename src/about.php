@@ -1,7 +1,6 @@
 <? $pageTitle = "About Us";
 $cssFile = "about";
 include "../components/header.php"; ?>
-<section>
     <div id="firstCircles">
         <svg width="632" height="632" viewBox="0 0 632 632" fill="none" xmlns="http://www.w3.org/2000/svg">
             <line x1="551.736" y1="57.1715" x2="248.805" y2="236.577" stroke="#799DAB" stroke-width="3"/>
@@ -58,5 +57,4 @@ include "../components/header.php"; ?>
             <line x1="418.922" y1="345.978" x2="564.78" y2="407.392" stroke="#799DAB" stroke-width="6"/>
         </svg>
     </div>
-</section>
 <? include "../components/footer.php"; ?>

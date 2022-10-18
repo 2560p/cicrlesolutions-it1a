@@ -1,23 +1,23 @@
-section{
-    width: 100%;
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(8, 1fr);
-
+@font-face {
+    font-family: "Calibre-Bold";
+    url("src/fonts/Calibre-Bold.otf") format("otf");
 }
+
 #firstCircles{
     display: flex;
     justify-content: center;
     width: 400px;
     height: 400px;
     grid-column: 2/3;
+    margin-left: 30px;
 }
 
 .firstText{
-    grid-column: 5/8;
+    grid-column: 4/7;
     display: flex;
     margin-top: 110px;
     flex-direction: column;
+    margin-left: 30px;
 }
 .firstText p{
     font-size: 20px;
@@ -42,6 +42,7 @@ section{
     font-size: 40px;
     width: 350px;
     margin-left: 70px;
+    font-family: "Calibre-Bold";
 }
 
 #secondSV{
