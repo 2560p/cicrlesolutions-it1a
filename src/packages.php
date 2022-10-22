@@ -2,10 +2,10 @@
 $cssFile = "packages";
 include "../components/header.php"; ?>
 
-<div id="flexpackage">
-	<header>
+<div class="flexpackage">
+	
 			<h1 class="classstitle">Packages</h1>
-		</header>
+		
 	</div>
 <body>
 	<div class="maincontent">
@@ -102,7 +102,7 @@ include "../components/header.php"; ?>
 	<a href="contact.php" class= "classrighttitle">Contact us for more information</a>
 </div>
 
-	
+
 
 </section>
 </div>
