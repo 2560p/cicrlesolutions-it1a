@@ -7,7 +7,7 @@ include "../components/header.php"; ?>
 			<h1 class="classstitle">Packages</h1>
 		</header>
 	</div>
-<body>
+<body> <!-- Look up how to use the body tag, you shouldn't use it like that -->
 	<div class="maincontent">
 	<section>
 		<h2 class="classlefttitle"> Circle Workspace
@@ -21,8 +21,7 @@ include "../components/header.php"; ?>
 
 
 		
-		<h2 class="classlefttitle">Circle D.O.T.S
-			</h2>
+		<h2 class="classlefttitle">Circle D.O.T.<Sw/h2>
 			<br>
 				<img
 		 			src= "img/package_image2.png"
