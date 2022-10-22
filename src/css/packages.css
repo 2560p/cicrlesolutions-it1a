@@ -1,22 +1,15 @@
-#flexpackage{
+.flexpackage{
 	grid-column: 2/4;
 	display: flex;
 	justify-content: center;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	padding-right: px;
+	
 }
 .maincontent{
 	grid-column: 3/8;
 	display: flex;
 	justify-content: center;
-	margin-top: 1px;
-	margin-bottom: 81px;
 }
-.maincontentleft{
-	margin-top: 4px;
 
-}
 
 .classstitle {
 	font-size: 70px;
@@ -26,6 +19,7 @@
 	font-weight: 700;
 	text-decoration:none;
 	text-align: center;
+	justify-content: center;
 }
 
 .classrighttitle {
@@ -39,12 +33,8 @@
 }
 .classrighttext {
 	font-size: 23px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
 	color: #546D77;
-	text-align:left;
-	
+	text-align:left;	
 }
 .classlefttitle {
 	font-size: 30px;
@@ -58,7 +48,8 @@ img{
 	height: auto;%;
 	margin-bottom: 20px;
 	padding: 40px;
-	margin: ;
+	padding-right: 180px;
+	margin-right: 80px;
 }
 body{
 	max-width: auto;
@@ -92,21 +83,7 @@ div{
 
 }
 
-li{
-	text-decoration:none;
-	display: inline-block;
-}
-a{
-	text-decoration:none;
-	display: inline-block;
-	}
 
-#flext{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 50px 50px;
-	grid-gap: 3px;
-}
 
 .flexbot{
 			display: flex;
@@ -127,8 +104,6 @@ a{
 	margin-bottom: 90px;
 	justify-content: center;
 }
-
-
 
 
 
