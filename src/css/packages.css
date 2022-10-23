@@ -1,3 +1,127 @@
+.tophalfleft{
+	grid-column: 2/5;
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.tophalfright{
+	grid-column: 5/7;
+    display: flex;
+    margin-top: 80px;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.middleright{
+	grid-column: 2/5;
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.middleleft{
+	grid-column: 5/7;
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    margin-left: 30px;
+
+}
+
+.specialpack{
+	grid-column: 2/5;
+	display: flex;
+}
+
+.spackpic{
+	grid-column: 2/8;
+	display: flex;
+	grid-gap: 150px;
+	padding: 50px;
+}
+
+.{
+	grid-column: 3/7;
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    margin-left: 30px;
+
+}
+.contactlink{
+	grid-column: 2/7;
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	justify-content: center;
+}
+
+.Contactuslist{
+	list-style-type: none;
+	padding: 0;
+	font-size: 50px;
+	padding: 0;
+	color: #799DAB;
+}
+
+.contacttext {
+	font-family: "Calibre";
+	font-weight: 400;
+}
+
+.contactlinktext {
+	text-align: center;
+	color: #F0790E;
+	text-decoration: none;
+	font-family: "Calibre";
+	font-weight: 700;
+	transition: text-shadow .1s linear
+}
+
+.contactlinktext:hover {
+	text-shadow: 1px 5px 5px rgba(33, 33, 33, .2);
+}
+
+.titletext{
+	font-size: 70px;
+	color: #799DAB;
+	font-family: "Calibre";
+	font-weight: 700;
+}
+.subtitleall{
+	font-size: 30px;
+	margin-left: 150px;
+	color: #799DAB
+}
+
+p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #546D77;
+    text-align: justify;
+}
+
+h3{
+    color: #799DAB;
+    font-size: 30px;
+}
+.encryptedflex{
+	padding: 50px 50px 50px 50x;
+}
+.solo{
+
+}
+
+
+
+
+
+
+
+/*
 .flexpackage{
 	grid-column: 2/4;
 	display: flex;
@@ -74,6 +198,7 @@ div{
 }
 */
 
+/*
 #flexbottom{
 	grid-column: 1/4;
 	display: flex;
@@ -105,7 +230,7 @@ div{
 	justify-content: center;
 }
 
-
+*/
 
 
 /*
