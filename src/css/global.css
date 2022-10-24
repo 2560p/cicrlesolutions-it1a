@@ -95,6 +95,8 @@ header ul li {
     list-style: none;
     display: inline;
     margin-left: 10px;
+    font-family: "Calibre";
+    font-weight: 600;
 }
 
 header a {
@@ -173,6 +175,8 @@ footer div {
     align-self: center;
     gap: 10px;
     margin-top: 20px;
+    font-family: "Calibre";
+    font-weight: 300;
 }
 
 #contacts a {
