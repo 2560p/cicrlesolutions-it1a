@@ -251,7 +251,7 @@ footer div {
    }
 
    header li a{
-       font-size: 1.3em;
+       font-size: 1.2em;
    }
 
    #firstHref{
@@ -263,5 +263,4 @@ footer div {
    #about{
        flex-wrap: nowrap;
    }
-
 }
