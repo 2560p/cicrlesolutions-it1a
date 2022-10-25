@@ -2,26 +2,25 @@
 $cssFile = "contact";
 include "../components/header.php"; ?>
 			<div class="contactFormContainer">
-
 				<div class="contactBox">
 					<form name="contact" action="contact.php" method="POST"
 					class="formBox">
 							<h1 class="contactTitle">Contact us</h1>
 							<div class="textInputBox">
 								<div class="boxForInput">
-									<input class="textInputs" type="text" name="firstName" placeholder="First Name...">
+									<input class="textInputs" type="text" name="firstName" placeholder=" First Name..." required>
 
-									<input class="textInputs" type="text" name="lastName" placeholder="Last Name...">
+									<input class="textInputs" type="text" name="lastName" placeholder=" Last Name...">
 								</div>
 								<div class="boxForInput">
-									<input class="textInputs" type="text" name="email" placeholder="Email..." required>
+									<input class="textInputs" type="text" name="email" placeholder=" Email..." required>
 
-									<input class="textInputs" type="text" name="contactNumber" placeholder="Contact Number...">
+									<input class="textInputs" type="text" name="contactNumber" placeholder=" Contact Number...">
 								</div>
 							</div>
 						
 							<div class="bottomForm">
-								<textarea name="message" class="textarea" placeholder="Write an email..."></textarea>
+								<textarea name="message" class="textarea" placeholder=" Write an email..."></textarea>
 
 								<div class="submitContainer">
 									<input type="submit" name="submit" value="Send message" class="submit">
@@ -36,15 +35,20 @@ include "../components/header.php"; ?>
 									?>
 								</div>
 							</div>
-
-
 					</form>
 
-					<div>
+					<div class="separationLine">
 						<svg width="2" height="360" viewBox="0 0 2 594" fill="none"  xmlns="http://www.w3.org/2000/svg">
 						<line x1="1" y1="593.041" x2="1" y2="-0.000305176" stroke="#799DAB" stroke-width="2"/>
 						</svg>
 					</div>
+					
+					<div class="separationLineMobile">
+						<svg width="250" height="2" viewBox="0 0 250 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<line y1="1" x2="250" y2="1" stroke="#799DAB" stroke-width="2"/>
+						</svg>
+					</div>
+					
 
 					<div class="contactInformation">
 						<div class="logoText">
