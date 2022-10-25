@@ -38,7 +38,7 @@ include "../components/header.php"; ?>
 				<b>App management</b>
 				<p>Manageable workplace in minutes</p>
 				<b>Communication and information</b>
-				<p>All information accessible  in the workspace</p>
+				<p>All information accessible in the workspace</p>
 				<b>Document management</b>
 				<p>All your documents manageable from your workspace</p>
 			</div>

@@ -5,6 +5,21 @@ include "../components/header.php"; ?>
 	<div>
 		<h1 class="titletext">Packages</h1>
 		</div>
+<div>
+    <svg class="circlesone" viewBox="0 0 768 808" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M312.457 584.515C277.354 503.225 184.884 464.993 105.981 498.961C27.0783 532.929 -8.55712 626.311 26.5456 707.6C61.6483 788.89 154.118 827.122 233.021 793.154C311.924 759.186 347.559 665.804 312.457 584.515Z" stroke="#DCF1F9" stroke-width="4"/>
+        <path d="M752.246 259.212C717.143 177.923 624.673 139.69 545.77 173.658C466.867 207.626 431.232 301.008 466.335 382.298C501.437 463.587 593.907 501.82 672.81 467.852C751.713 433.884 787.349 340.501 752.246 259.212Z" stroke="#DCF1F9" stroke-width="4"/>
+        <path d="M300.329 100.522C265.223 19.2248 173.028 -19.1174 94.4771 14.699C15.9263 48.5154 -19.4403 141.773 15.6657 223.07C50.7717 304.367 142.966 342.709 221.517 308.893C300.068 275.076 335.435 181.819 300.329 100.522Z" stroke="#DCF1F9" stroke-width="4"/>
+        <line y1="-1.5" x2="176.287" y2="-1.5" transform="matrix(-0.0679914 -0.997686 -0.998859 0.0477553 165.771 493.169)" stroke="#DCF1F9" stroke-width="3"/>
+        <line y1="-1.5" x2="176.287" y2="-1.5" transform="matrix(-0.0679914 -0.997686 -0.998859 0.0477553 147.938 525.906)" stroke="#DCF1F9" stroke-width="3"/>
+        <line y1="-1.5" x2="175.882" y2="-1.5" transform="matrix(0.953533 0.301288 0.272611 -0.962124 299.74 199.914)" stroke="#DCF1F9" stroke-width="3"/>
+        <line y1="-1.5" x2="175.882" y2="-1.5" transform="matrix(0.953533 0.301288 0.272611 -0.962124 263.488 166.333)" stroke="#DCF1F9" stroke-width="3"/>
+        <line y1="-1.5" x2="242.551" y2="-1.5" transform="matrix(0.74532 -0.666706 -0.65405 -0.756452 310.741 586.019)" stroke="#DCF1F9" stroke-width="3"/>
+        <line y1="-1.5" x2="245.554" y2="-1.5" transform="matrix(0.74532 -0.666706 -0.65405 -0.756452 325.917 549.595)" stroke="#DCF1F9" stroke-width="3"/>
+    </svg>
+</div>
+
+
 	<div>
 		<h2 class="subtitleall">Circle Workspace</h2>
 		</div>
@@ -86,29 +101,54 @@ include "../components/header.php"; ?>
 						</div>
 
 					</div>
-
-<div class="svgwave">
-	<svg width="1920" height="241" viewBox="0 0 1920 241" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_i_283_97)">
-<path d="M-20 192.176L80.4708 140.007C194.36 80.8709 320.804 50 449.131 50H471.229C551.216 50 630.752 61.9959 707.181 85.5876L923.082 152.23C1052.23 192.093 1189.36 198.587 1321.69 171.107L1431.5 148.304C1547.4 124.237 1667.19 126.188 1782.24 154.017L1940 192.176" stroke="#C7EAF8" stroke-width="100"/>
-</g>
-<defs>
-<filter id="filter0_i_283_97" x="-43.0413" y="0" width="1994.8" height="244.774" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="4"/>
-<feGaussianBlur stdDeviation="2"/>
-<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="shape" result="effect1_innerShadow_283_97"/>
-</filter>
-</defs>
-</svg>
-
-
-
+	<div>
+    <svg class="circlestwo" viewBox="0 0 768 808" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M312.457 584.515C277.354 503.225 184.884 464.993 105.981 498.961C27.0783 532.929 -8.55712 626.311 26.5456 707.6C61.6483 788.89 154.118 827.122 233.021 793.154C311.924 759.186 347.559 665.804 312.457 584.515Z" stroke="#DCF1F9" stroke-width="4"/>
+        <path d="M752.246 259.212C717.143 177.923 624.673 139.69 545.77 173.658C466.867 207.626 431.232 301.008 466.335 382.298C501.437 463.587 593.907 501.82 672.81 467.852C751.713 433.884 787.349 340.501 752.246 259.212Z" stroke="#DCF1F9" stroke-width="4"/>
+        <path d="M300.329 100.522C265.223 19.2248 173.028 -19.1174 94.4771 14.699C15.9263 48.5154 -19.4403 141.773 15.6657 223.07C50.7717 304.367 142.966 342.709 221.517 308.893C300.068 275.076 335.435 181.819 300.329 100.522Z" stroke="#DCF1F9" stroke-width="4"/>
+        <line y1="-1.5" x2="176.287" y2="-1.5" transform="matrix(-0.0679914 -0.997686 -0.998859 0.0477553 165.771 493.169)" stroke="#DCF1F9" stroke-width="3"/>
+        <line y1="-1.5" x2="176.287" y2="-1.5" transform="matrix(-0.0679914 -0.997686 -0.998859 0.0477553 147.938 525.906)" stroke="#DCF1F9" stroke-width="3"/>
+        <line y1="-1.5" x2="175.882" y2="-1.5" transform="matrix(0.953533 0.301288 0.272611 -0.962124 299.74 199.914)" stroke="#DCF1F9" stroke-width="3"/>
+        <line y1="-1.5" x2="175.882" y2="-1.5" transform="matrix(0.953533 0.301288 0.272611 -0.962124 263.488 166.333)" stroke="#DCF1F9" stroke-width="3"/>
+        <line y1="-1.5" x2="242.551" y2="-1.5" transform="matrix(0.74532 -0.666706 -0.65405 -0.756452 310.741 586.019)" stroke="#DCF1F9" stroke-width="3"/>
+        <line y1="-1.5" x2="245.554" y2="-1.5" transform="matrix(0.74532 -0.666706 -0.65405 -0.756452 325.917 549.595)" stroke="#DCF1F9" stroke-width="3"/>
+    </svg>
 </div>
+
+<div id="svgwave">
+    <svg width="100%" viewBox="0 0 1920 311" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 163.471L471 111L960 163.471H1920V311H0V163.471Z" fill="#DCF1F9" />
+        <g filter="url(#filter0_i_0_1)">
+            <path d="M-20 192.176L80.4708 140.007C194.36 80.8709 320.804 50 449.131 50H471.229C551.216 50 630.752 61.9959 707.181 85.5876L923.082 152.23C1052.23 192.093 1189.36 198.587 1321.69 171.107L1431.5 148.304C1547.4 124.237 1667.19 126.188 1782.24 154.017L1940 192.176" stroke="#C7EAF8" stroke-width="100" />
+        </g>
+        <g filter="url(#filter1_i_0_1)">
+            <path d="M-20 221.304L81.191 169.083C194.624 110.545 320.419 80 448.066 80H471.936C551.46 80 630.54 91.8572 706.566 115.181L924.18 181.94C1052.63 221.345 1188.93 227.765 1320.51 200.608L1432.53 177.488C1547.77 153.705 1666.83 155.634 1781.23 183.136L1940 221.304" stroke="#DCF1F9" stroke-width="100" />
+        </g>
+        <defs>
+            <filter id="filter0_i_0_1" x="-43.0413" y="0" width="1994.8" height="244.774" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2" />
+                <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                <feBlend mode="normal" in2="shape" result="effect1_innerShadow_0_1" />
+            </filter>
+            <filter id="filter1_i_0_1" x="-42.9297" y="30" width="1994.62" height="243.919" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                <feOffset dy="4" />
+                <feGaussianBlur stdDeviation="2" />
+                <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                <feBlend mode="normal" in2="shape" result="effect1_innerShadow_0_1" />
+            </filter>
+        </defs>
+    </svg>
+</div>
+<div id="blueBackground">
 	
 		<div class="specialpack">
 			<h1 class="titletext">special package</h1>
@@ -122,17 +162,17 @@ include "../components/header.php"; ?>
 			 height="250px"
 			 width="250px"
 		>
-		<h3>Encrypted file</h3>
+		<h3 class="endee">Encrypted file</h3>
 	</div>
 
 	<div>
 			<img  src= "img/map.png" alt= "map image" width="300px" height="250px">
-		<h3>Gps tracking for police</h3>
+		<h3 class="endee">Gps tracking for police</h3>
 	</div>
   <div>
   	<img src= "img/instant_messaging.png" alt= "instant messaging image" width="250px" height="250px"
   	>	
-  	<h3>Instant messaging</h3>
+  	<h3 class="endee">Instant messaging</h3>
   </div>
  </div>
 
@@ -145,7 +185,7 @@ include "../components/header.php"; ?>
 			</ul>
 		</div>
 
-
+</div>
 
 
 
