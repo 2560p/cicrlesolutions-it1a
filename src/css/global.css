@@ -152,7 +152,7 @@ footer section {
 }
 
 footer div section a {
-    align-self: center;
+    align-self: ;
 }
 
 footer img {
@@ -251,7 +251,7 @@ footer div {
    }
 
    header li a{
-       font-size: 1.3em;
+       font-size: 1.15em;
    }
 
    #firstHref{
@@ -264,4 +264,42 @@ footer div {
        flex-wrap: nowrap;
    }
 
+
+	/* NICO MOBILE FOOTER
+	footer {
+		grid-column: 1/3;
+	}
+	
+	footer div {
+		margin-left: 36px; 
+		flex-direction: column;
+		gap: 6px;
+	}
+	
+	#contacts {
+		margin-left: 0;
+		flex-direction: row;
+		margin-top: 0;
+	}
+	
+	#location {
+		margin-left: 0;
+		flex-direction: row;
+		margin-top: 0;
+	}	
+	
+	footer section {
+		margin-top: 10px;
+	}
+	
+	footer img {
+		width: 24px;
+		height: 24px;
+	}
+	
+	footer section {
+		width: 32px;
+		height: 32px;
+	}
+	*/
 }
