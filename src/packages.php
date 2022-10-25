@@ -86,7 +86,30 @@ include "../components/header.php"; ?>
 						</div>
 
 					</div>
-				
+
+<div class="svgwave">
+	<svg width="1920" height="241" viewBox="0 0 1920 241" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_i_283_97)">
+<path d="M-20 192.176L80.4708 140.007C194.36 80.8709 320.804 50 449.131 50H471.229C551.216 50 630.752 61.9959 707.181 85.5876L923.082 152.23C1052.23 192.093 1189.36 198.587 1321.69 171.107L1431.5 148.304C1547.4 124.237 1667.19 126.188 1782.24 154.017L1940 192.176" stroke="#C7EAF8" stroke-width="100"/>
+</g>
+<defs>
+<filter id="filter0_i_283_97" x="-43.0413" y="0" width="1994.8" height="244.774" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_283_97"/>
+</filter>
+</defs>
+</svg>
+
+
+
+</div>
+	
 		<div class="specialpack">
 			<h1 class="titletext">special package</h1>
  				</div>

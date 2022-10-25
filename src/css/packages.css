@@ -40,6 +40,7 @@
 	display: flex;
 	grid-gap: 150px;
 	padding: 50px;
+	
 }
 
 .{
@@ -56,6 +57,7 @@
 	margin-top: 40px;
 	margin-bottom: 40px;
 	justify-content: center;
+	
 }
 
 .Contactuslist{
@@ -64,6 +66,7 @@
 	font-size: 50px;
 	padding: 0;
 	color: #799DAB;
+	
 }
 
 .contacttext {
@@ -78,6 +81,7 @@
 	font-family: "Calibre";
 	font-weight: 700;
 	transition: text-shadow .1s linear
+	
 }
 
 .contactlinktext:hover {
@@ -115,9 +119,13 @@ h3{
 
 }
 
+.svgwave{
+	grid-column: 1/8;
+	display: flex;
+}
 
 
-
+}
 
 
 
