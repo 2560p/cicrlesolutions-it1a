@@ -148,9 +148,4 @@ main{
         display: flex;
         align-self: center;
     }
-
-    footer{
-        display: none;
-        #TODO розібратись з футером
-    }
 }

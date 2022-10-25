@@ -152,7 +152,7 @@ footer section {
 }
 
 footer div section a {
-    align-self: center;
+    align-self: center ;
 }
 
 footer img {
@@ -218,14 +218,14 @@ footer div {
     margin-bottom: 10px;
 }
 
-@media screen and (max-width: 576px){
-    header{
+@media screen and (max-width: 576px) {
+    header {
         grid-template-rows: 40% 60%;
         height: 220px;
         justify-content: center;
     }
 
-    header img{
+    header img {
         width: 200px;
         height: 65px;
         grid-row: 1/1;
@@ -235,32 +235,81 @@ footer div {
 
     }
 
-   header ul{
-       grid-row: 2/2;
-       align-self: center;
-       display: flex;
-       flex-direction: row;
-       align-items: center;
-       justify-content: space-evenly;
-       grid-column: 2/11;
-   }
+    header ul {
+        grid-row: 2/2;
+        align-self: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        grid-column: 2/11;
+    }
 
-   header li{
-       margin-right: 20px;
-       margin-bottom: 20px;
-   }
+    header li {
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
 
-   header li a{
-       font-size: 1.2em;
-   }
+    header li a {
+        font-size: 1.15em;
+    }
 
-   #firstHref{
-       align-self: center;
-       grid-column: 4/8;
-       margin-top: 20px;
-   }
+    #firstHref {
+        align-self: center;
+        grid-column: 4/8;
+        margin-top: 20px;
+    }
 
-   #about{
-       flex-wrap: nowrap;
-   }
+    #about {
+        flex-wrap: nowrap;
+    }
+
+    footer {
+        display: grid;
+        grid-column: 1/9;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    footer div {
+        margin-left: 36px;
+        flex-direction: column;
+        gap: 6px;
+        grid-row: 1/6;
+        grid-column: 1/2;
+    }
+
+    #contacts {
+        margin-left: 46px;
+        flex-direction: row;
+        margin-top: 0;
+        grid-row: 2/3;
+        grid-column: 2/3;
+        align-items: flex-end;
+
+    }
+
+    #location {
+        margin-left: 0;
+        flex-direction: row;
+        margin: 0;
+        grid-row: 4/5;
+        grid-column: 2/3;
+    }
+
+    footer section {
+        margin-top: 10px;
+    }
+
+    footer img {
+        width: 24px;
+        height: 24px;
+    }
+
+    footer section {
+        width: 32px;
+        height: 32px;
+    }
 }
