@@ -212,3 +212,43 @@ footer div {
     color: #799DAB;
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 576px){
+    header{
+        grid-template-rows: 40% 60%;
+        height: 220px;
+    }
+
+    header img{
+        width: 200px;
+        height: 65px;
+        grid-row: 1/1;
+        align-self: center;
+        grid-column: 5/9;
+    }
+
+   header ul{
+       grid-row: 2/2;
+       align-self: center;
+       display: block;
+       align-items: center;
+       justify-content: space-evenly;
+       grid-column: 2/11;
+   }
+
+   header li{
+       margin-right: 20px;
+       margin-bottom: 20px;
+   }
+
+   header li a{
+       font-size: 25px;
+   }
+
+   #firstHref{
+       align-self: center;
+       grid-column: 4/8;
+       margin-top: 20px;
+   }
+
+}
