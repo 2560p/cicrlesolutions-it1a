@@ -260,4 +260,8 @@ footer div {
        margin-top: 20px;
    }
 
+   #about{
+       flex-wrap: nowrap;
+   }
+
 }
