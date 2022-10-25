@@ -222,6 +222,7 @@ footer div {
     header{
         grid-template-rows: 40% 60%;
         height: 220px;
+        justify-content: center;
     }
 
     header img{
@@ -230,12 +231,15 @@ footer div {
         grid-row: 1/1;
         align-self: center;
         grid-column: 5/9;
+        display: flex;
+
     }
 
    header ul{
        grid-row: 2/2;
        align-self: center;
-       display: block;
+       display: flex;
+       flex-direction: row;
        align-items: center;
        justify-content: space-evenly;
        grid-column: 2/11;
@@ -247,7 +251,7 @@ footer div {
    }
 
    header li a{
-       font-size: 25px;
+       font-size: 1.3em;
    }
 
    #firstHref{
