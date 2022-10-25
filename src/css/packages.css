@@ -33,13 +33,16 @@
 .specialpack{
 	grid-column: 2/5;
 	display: flex;
+	margin-top: -25px;
 }
 
 .spackpic{
-	grid-column: 2/8;
+	grid-column: 1/8;
 	display: flex;
 	grid-gap: 150px;
 	padding: 50px;
+	margin: auto;
+  	width: auto;
 	
 }
 
@@ -119,13 +122,41 @@ h3{
 
 }
 
-.svgwave{
+#svgwave{
 	grid-column: 1/8;
 	display: flex;
 }
 
-
+.endee{
+	text-align: center;
+	font-family: "Calibre";
+	font-weight: 300
 }
+
+.circlesone{
+    width: 768px;
+    height:808px;
+    position: absolute;
+    z-index: -1;
+    left: 230px;
+    margin-top: 35px;
+}
+.circlestwo{
+    width: 768px;
+    height:808px;
+    position: absolute;
+    z-index: -1;
+    left: 230px;
+    margin-top: 35px;
+}
+
+#blueBackground {
+	grid-column: 1/8;
+	display: grid;
+	grid-template-columns: 10% repeat(5, 1fr) 10%;
+	background-color: #DCF1F9;
+}
+
 
 
 
