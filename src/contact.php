@@ -23,8 +23,21 @@ include "../components/header.php"; ?>
 							<div class="bottomForm">
 								<textarea name="message" class="textarea" placeholder="Write an email..."></textarea>
 
-								<input type="submit" name="submit" value="Send message" class="submit">
+								<div class="submitContainer">
+									<input type="submit" name="submit" value="Send message" class="submit">
+
+									<?php
+										if ($_POST) {
+									
+
+
+											echo '<div class="submitText">Thank you ' . $_POST["firstName"] . ', your form has been submited!</div>';
+										}
+									?>
+								</div>
 							</div>
+
+
 					</form>
 
 					<div>
@@ -58,8 +71,8 @@ include "../components/header.php"; ?>
 							<p class="contactInfoText">circlesolutions@email.com</p>
 						</div>
 
-						<a href="#">
-							<img src="img/contactMap.png" class="mapImage">
+						<a href="https://www.google.com/maps/place/NHL+Stenden+University+of+Applied+Sciences/@52.7778561,6.9098366,17z/data=!3m1!4b1!4m5!3m4!1s0x47b7e61f3ec72443:0xbe9d297b3e4fbcc7!8m2!3d52.7778561!4d6.9120253" target="blank">
+							<img src="img/mapNhl.jpg" class="mapImage">
 						</a>
 					</div>
 				</div>

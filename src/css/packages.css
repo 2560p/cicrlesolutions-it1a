@@ -1,34 +1,303 @@
+.tophalfleft{
+	grid-column: 2/5;
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.tophalfright{
+	grid-column: 5/7;
+    display: flex;
+    margin-top: 80px;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.middleright{
+	grid-column: 2/5;
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.middleleft{
+	grid-column: 5/7;
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    margin-left: 30px;
+
+}
+
+.specialpack{
+	grid-column: 2/5;
+	display: flex;
+}
+
+.spackpic{
+	grid-column: 2/8;
+	display: flex;
+	grid-gap: 150px;
+	padding: 50px;
+}
+
+.{
+	grid-column: 3/7;
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    margin-left: 30px;
+
+}
+.contactlink{
+	grid-column: 2/7;
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	justify-content: center;
+}
+
+.Contactuslist{
+	list-style-type: none;
+	padding: 0;
+	font-size: 50px;
+	padding: 0;
+	color: #799DAB;
+}
+
+.contacttext {
+	font-family: "Calibre";
+	font-weight: 400;
+}
+
+.contactlinktext {
+	text-align: center;
+	color: #F0790E;
+	text-decoration: none;
+	font-family: "Calibre";
+	font-weight: 700;
+	transition: text-shadow .1s linear
+}
+
+.contactlinktext:hover {
+	text-shadow: 1px 5px 5px rgba(33, 33, 33, .2);
+}
+
+.titletext{
+	font-size: 70px;
+	color: #799DAB;
+	font-family: "Calibre";
+	font-weight: 700;
+}
+.subtitleall{
+	font-size: 30px;
+	margin-left: 150px;
+	color: #799DAB
+}
+
+p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #546D77;
+    text-align: justify;
+}
+
+h3{
+    color: #799DAB;
+    font-size: 30px;
+}
+.encryptedflex{
+	padding: 50px 50px 50px 50x;
+}
+.solo{
+
+}
+
+
+
+
+
+
+
+/*
+.flexpackage{
+	grid-column: 2/4;
+	display: flex;
+	justify-content: center;
+	
+}
+.maincontent{
+	grid-column: 3/8;
+	display: flex;
+	justify-content: center;
+}
+
+
+.classstitle {
+	font-size: 70px;
+	margin-left: 30px;
+	color: #799DAB;
+	font-family: "Calibre";
+	font-weight: 700;
+	text-decoration:none;
+	text-align: center;
+	justify-content: center;
+}
+
+.classrighttitle {
+	font-size: 35px;
+	padding-right: 80px;
+	padding-left: 80px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	color: #799DAB;
+}
+.classrighttext {
+	font-size: 23px;
+	color: #546D77;
+	text-align:left;	
+}
+.classlefttitle {
+	font-size: 30px;
+	margin-left: 10px;
+	color: #799DAB;
+	text-align: left;
+}
+
+img{
+	width: 100%;
+	height: auto;%;
+	margin-bottom: 20px;
+	padding: 40px;
+	padding-right: 180px;
+	margin-right: 80px;
+}
+body{
+	max-width: auto;
+	margin: 0 auto;
+	display: grid;
+
+}
+#circledots{
+	grid-column: 1/3;
+	display: flex;
+	justify-content:right;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/* This was fucking with your page, idk why you did it
+div{
+	padding: 50px;
+	margin: 50px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+*/
+
+/*
+#flexbottom{
+	grid-column: 1/4;
+	display: flex;
+	justify-content: center;
+	margin-top: 114px;
+	margin-bottom: 81px;
+
+}
+
+
+
+.flexbot{
+			display: flex;
+			flex-direction: row;
+			text-decoration: none;
+			margin: 50px;
+			padding-left: 50px;
+			padding-right: 50px;
+			
+}
+.encryptimage{
+	height: 600px;
+	width: 600px;
+}
+.classcontact{
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: 90px;
+	justify-content: center;
+}
+
+*/
+
+
+/*
 #flexTitle{
 	grid-column: 1/3;
 	display:flex;
 	justify-content: center;
 }
 
-.classTitle{
+.classTitle1{
+	grid-column:1/3;
 	font-size: 70px;
 	margin-left: 150px;
 	color: #799DAB;
 }
 
 .classSubtitle{
-	font-size: 35px;
+	grid-column:6/7;
+	font-size: 23px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 1px;
+	color:red;
+	text-align:left;
+}
+.classBannertitle {
+	font-size: 30px;
 	margin-left: 150px;
 	color: #799DAB;
 }
+.classBt {
+	font-size: 23px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: px;
+	color:red;
+	text-align:left;
+}
+.classBt1{
+	grid-column:6/7;
+	font-size: 23px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 1px;
+	color:red;
+	text-align:left;
+
+}
 
 #flexImage1{
-	grid-column: 1/5;
+	grid-column: 1/4;
 	display:flex;
 	justify-content: center;
 }
 
 .classImage1{
+	margin-left: 20px;
+	margin-right: 20px;
 	width: 614px;
 	height: 474px;
 	
 }
 
 .classImage2{
+	grid-column:1/7;
+	display:flex;
+	justify-content: center;
 	width: 739px;
 	height: 738px;
 }
@@ -49,8 +318,18 @@
 }
 
 #flexImages{
-	grid-column: 2/7;
+	grid-column: 1/3;
 	display:flex;
 	justify-content: space-between;
 	
 }
+li{
+	display:inline-block;
+	list-style:none;
+}
+a{
+	display:inline-block;
+	list-style:none;
+	text-decoration:none;
+}
+/*

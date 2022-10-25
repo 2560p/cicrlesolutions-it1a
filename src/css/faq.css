@@ -98,3 +98,22 @@
 	z-index: -1;
 	right: 200px;
 }
+
+@media screen and (max-width: 576px) {
+	.classCircles1{
+		display:none;
+	}
+	.classCircles2{
+		display:none;
+	}
+	.classCircles3{
+		display:none;
+	}
+	.classBannertitle {
+		margin-left: 25px;
+	}
+	.classBannertext {
+		margin-left: 50px;
+	}
+	
+}
