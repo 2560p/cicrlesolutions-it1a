@@ -35,7 +35,7 @@ include "../components/header.php"; ?>
         </div>
     </div>
     <div id="vision">
-        <p>VISION &<br>MISSION</p>
+        <p>VISION & MISSION</p>
     </div>
     <div id="secondSV">
         <svg width="650" height="650" viewBox="0 0 990 686" fill="none" xmlns="http://www.w3.org/2000/svg">

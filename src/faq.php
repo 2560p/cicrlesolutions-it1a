@@ -5,7 +5,7 @@ include "../components/header.php"; ?>
 		<h1 class="classTitle">Frequently asked questions</h1>
 	</div>
 	<div  id="flexCircles1">
-		<img class="classCircles1" src="img/Circles1.png">
+		<img class="classCircles1" src="img/Circles1.png" alt="3 circles with lines between them">
 	</div>
 	<div id="Banner">
 		<h2 class="classBannertitle">What is an intranet?</h2>
@@ -29,7 +29,7 @@ include "../components/header.php"; ?>
 			but allows third-party entry, so vendors or partners can experience full or selected access.
 		</p>
 		<div id="flexCircles2">
-			<img class="classCircles2" src="img/Circles2.png">
+			<img class="classCircles2" src="img/Circles2.png" alt="3 circles with lines between them">
 		</div>
 		<h2 class="classBannertitle">What are intranet sites?</h2>
 		<p class="classBannertext">
@@ -51,7 +51,7 @@ include "../components/header.php"; ?>
 			as well as external apps, and information and knowledge that is stored within the intranet itself.
 		</p>
 		<div id="flexCircles3">
-			<img class="classCircles3" src="img/Circles3.png">
+			<img class="classCircles3" src="img/Circles3.png" alt="3 circles with lines between them">
 		</div>
 		<h2 class="classBannertitle">Can an intranet work without the internet?</h2>
 		<p class="classBannertext">
