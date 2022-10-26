@@ -17,7 +17,7 @@ include "../components/header.php"; ?>
 				<img src="img/package_image1.png"
 					 alt="Pacahe package_image1"
 					 height="400px"
-					 width="300px"
+					 width="400px"
 					>
 				</div>
 			</div>
