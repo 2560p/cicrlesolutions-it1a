@@ -24,18 +24,18 @@ include "../components/header.php"; ?>
         <div>
             <h2 class="getTextDown">quality driver</h2>
             <p class="hide">
-                Our proffesionalism doesn't follow hypes: it follows quality. We believe in ever growing and striving for the best.
+                Our professionalism doesn't follow hypes: it follows quality. We believe in ever growing and striving for the best.
             </p>
         </div>
         <div>
             <h2 class="getTextDown">user friendly</h2>
             <p class="hide">
-                With our soluition we build bridges between user and systems.
+                With our solution we build bridges between user and systems.
             </p>
         </div>
     </div>
     <div id="vision">
-        <p>VISION&<br>MISSION</p>
+        <p>VISION &<br>MISSION</p>
     </div>
     <div id="secondSV">
         <svg width="650" height="650" viewBox="0 0 990 686" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -92,7 +92,7 @@ include "../components/header.php"; ?>
             <div>
                 <h2>user friendly</h2>
                 <p>
-                    With our soluition we build bridges between user and systems.
+                    With our solution we build bridges between user and systems.
                 </p>
             </div>
             <div id="lastCircle">
