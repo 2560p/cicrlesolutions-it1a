@@ -223,6 +223,7 @@ footer div {
         grid-template-rows: 40% 60%;
         height: 220px;
         justify-content: center;
+        position: static;
     }
 
     header img {
