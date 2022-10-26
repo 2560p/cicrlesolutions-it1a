@@ -49,6 +49,8 @@ include "../components/header.php"; ?>
     </ul>
 </div>
 
+<h3 id="packagesTitle">Our packages</h3>
+
 <div id="workspace">
     <h3>Circle Workspace</h3>
     <div id="column" class="box1">
