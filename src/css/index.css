@@ -203,3 +203,92 @@ b {
     height: 175px;
     box-shadow: 5px -5px 0 0 #CF943C;
 }
+
+#mobilecircles {
+    display: none;
+}
+
+#contactSection {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    grid-column: 3/6;
+    display: flex;
+    justify-content: center;
+}
+
+#contactSection ul {
+    list-style: none;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+    color: #799DAB;
+}
+
+#contactSection ul li a {
+    font-weight: 700;
+    text-decoration: none;
+    color: #CF943C;
+    transition: text-shadow .1s linear;
+}
+
+#contactSection ul li a:hover {
+    text-shadow: 1px 5px 5px rgba(33, 33, 33, .2);
+}
+
+@media screen and (max-width: 576px) {
+    #mainGrid {
+        grid-template-columns: 100%;
+    }
+
+    header {
+        grid-column: 1/2;
+    }
+
+    #mainheading {
+        grid-column: 1/2;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    #mainheading .title {
+        font-size: 40px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+
+    #desktopcircles {
+        display: none;
+    }
+
+    #mobilecircles {
+        display: flex;
+        position: absolute;
+        z-index: -1;
+        grid-column: 1/2;
+        top: 275px;
+        left: 65px;
+    }
+
+    #secondheading {
+        grid-column: 1/2;
+        margin: 0;
+        align-items: center;
+    }
+
+    #secondheading img {
+        width: 100%;
+    }
+
+    #secondheading ul {
+        font-size: 20px;
+        text-align: center;
+        margin: 0;
+        margin-top: 15px;
+    }
+
+}

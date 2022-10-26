@@ -9,7 +9,7 @@ include "../components/header.php"; ?>
     </ul>
 </div>
 
-<div>
+<div id="desktopcircles">
     <svg class="circles" viewBox="0 0 768 808" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M312.457 584.515C277.354 503.225 184.884 464.993 105.981 498.961C27.0783 532.929 -8.55712 626.311 26.5456 707.6C61.6483 788.89 154.118 827.122 233.021 793.154C311.924 759.186 347.559 665.804 312.457 584.515Z" stroke="#DCF1F9" stroke-width="4" />
         <path d="M752.246 259.212C717.143 177.923 624.673 139.69 545.77 173.658C466.867 207.626 431.232 301.008 466.335 382.298C501.437 463.587 593.907 501.82 672.81 467.852C751.713 433.884 787.349 340.501 752.246 259.212Z" stroke="#DCF1F9" stroke-width="4" />
@@ -20,6 +20,23 @@ include "../components/header.php"; ?>
         <line y1="-1.5" x2="175.882" y2="-1.5" transform="matrix(0.953533 0.301288 0.272611 -0.962124 263.488 166.333)" stroke="#DCF1F9" stroke-width="3" />
         <line y1="-1.5" x2="242.551" y2="-1.5" transform="matrix(0.74532 -0.666706 -0.65405 -0.756452 310.741 586.019)" stroke="#DCF1F9" stroke-width="3" />
         <line y1="-1.5" x2="245.554" y2="-1.5" transform="matrix(0.74532 -0.666706 -0.65405 -0.756452 325.917 549.595)" stroke="#DCF1F9" stroke-width="3" />
+    </svg>
+</div>
+
+<div id="mobilecircles">
+    <svg width="329" height="503" viewBox="0 0 329 503" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line x1="32.4777" y1="60.7523" x2="88.3504" y2="445.07" stroke="#DCF1F9" />
+        <line x1="51.0363" y1="52.1832" x2="285.292" y2="372.262" stroke="#DCF1F9" />
+        <line x1="127.77" y1="460.28" x2="269.625" y2="407.354" stroke="#DCF1F9" />
+        <line x1="128.32" y1="464.24" x2="270.176" y2="411.314" stroke="#DCF1F9" />
+        <line x1="53.0187" y1="50.0533" x2="288.135" y2="371.199" stroke="#DCF1F9" />
+        <line x1="35.3229" y1="59.6917" x2="91.1956" y2="444.009" stroke="#DCF1F9" />
+        <circle cx="101.317" cy="472.533" r="25.2799" transform="rotate(-110.46 101.317 472.533)" stroke="#DCF1F9" stroke-width="1.5" />
+        <circle cx="101.318" cy="472.533" r="29.6182" transform="rotate(-110.46 101.318 472.533)" stroke="#DCF1F9" stroke-width="1.5" />
+        <circle cx="298.046" cy="399.133" r="25.2799" transform="rotate(-110.46 298.046 399.133)" stroke="#DCF1F9" stroke-width="1.5" />
+        <circle cx="298.045" cy="399.134" r="29.6182" transform="rotate(-110.46 298.045 399.134)" stroke="#DCF1F9" stroke-width="1.5" />
+        <circle cx="31.0681" cy="31.0679" r="25.2799" transform="rotate(-110.46 31.0681 31.0679)" stroke="#DCF1F9" stroke-width="1.5" />
+        <circle cx="31.0683" cy="31.0678" r="29.6182" transform="rotate(-110.46 31.0683 31.0678)" stroke="#DCF1F9" stroke-width="1.5" />
     </svg>
 </div>
 
@@ -132,7 +149,13 @@ include "../components/header.php"; ?>
             <img src="img/portraits/Halluci_Absinthe.png" alt="Halluci Absinthe">
         </div>
     </div>
-</div>
 
+    <div id="contactSection">
+        <ul>
+            <li class="questions">Any questions? </li>
+            <li><a href="contact">Contact us</a></li>
+        </ul>
+    </div>
+</div>
 
 <? include "../components/footer.php"; ?>
