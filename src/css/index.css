@@ -123,6 +123,15 @@
     font-weight: 300;
 }
 
+.info {
+    color: #799DAB;
+}
+
+.info:hover{
+    color:#CF943C;
+}
+
+
 .more svg {
     margin-top: 4px;
 }
@@ -236,7 +245,7 @@ b {
 #contactSection ul li a {
     font-weight: 700;
     text-decoration: none;
-    color: #CF943C;
+    color: #f0790e;
     transition: text-shadow .1s linear;
 }
 
