@@ -162,6 +162,16 @@ h3{
 
 }
 
+.Image1{
+	width:400px;
+	height:309px;
+}
+
+.Image2{
+	width:400px;
+	height:400px;
+}
+
 
 @media screen and (max-width: 576px){
 	.tophalfright{

@@ -16,8 +16,8 @@ include "../components/header.php"; ?>
 			
 				<img src="img/package_image1.png"
 					 alt="Pacahe package_image1"
-					 height="400px"
-					 width="400px"
+					 class="Image1"
+					 
 					>
 				</div>
 			</div>
@@ -54,8 +54,8 @@ include "../components/header.php"; ?>
 				<img
 		 			src= "img/package_image2.png"
 		 			alt= "package image2"
-		 			width="400px"
-					height="400px"
+		 			class="Image2"
+					
 					>
 				</div>
 			</div>
