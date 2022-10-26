@@ -94,8 +94,9 @@ main{
 
     #firstCircle{
         align-self: center;
-        margin-top: 30px;
+        margin-top: 4px;
         justify-content: center;
+        margin-bottom: 40px;
     }
 
     .firsttext div{
@@ -130,6 +131,8 @@ main{
     .branc{
         display: flex;
         align-self: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     #mission{
@@ -141,11 +144,13 @@ main{
     }
 
     #lastCircle{
-        margin-top: 70px;
+        margin-top: 30px;
     }
 
     #circle{
         display: flex;
         align-self: center;
+        margin-top: 20px;
+        margin-bottom: 50px;
     }
 }
