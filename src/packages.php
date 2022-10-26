@@ -49,7 +49,7 @@ include "../components/header.php"; ?>
 			</div>
 
 	<div class="middleright">
-		<div>
+		<div class="middlepic">
 			<h2 class="subtitleall">Circle D.O.T.S.</h2>
 				<img
 		 			src= "img/package_image2.png"
@@ -145,7 +145,7 @@ include "../components/header.php"; ?>
 		<h3 class="endee">Encrypted file</h3>
 	</div>
 
-	<div>
+	<div class="police">
 			<img  src= "img/map.png" alt= "map image" width="300px" height="250px">
 		<h3 class="endee">Gps tracking for police</h3>
 	</div>

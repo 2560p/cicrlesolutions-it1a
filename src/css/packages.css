@@ -170,24 +170,43 @@ h3{
     display: flex;
     margin-top: 80px;
     flex-direction: column;
+    margin-right: 30px;
+    font-size: 100px;
  
 	}
+.tophalfleft{
+	grid-column: 1/7;
 
-
+	
+}
+.tophalfleft img{
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.tophalfleft h1{
+	margin-left: 20px;
+}
     .middleright{
-	grid-column: 1/8;
+	grid-column: 1/7;
     display: flex;
     margin-top: 40px;
     flex-direction: column;
-    
+    text-align: center;
+    margin-left: 30px;
     }
 
+.middlepic img{
+	
+	text-align: center;
+	margin-left: 70px;
+}
 
 .middleleft{
 	grid-column: 1/8;
     display: flex;
     margin-top: 40px;
-    flex-direction: column-reverse;
+    flex-direction:column;
+    margin-right: 30px;
     
 
 	}
@@ -217,12 +236,12 @@ h3{
     display: flex;
     margin-top: 40px;
     flex-direction: column;
-    margin-left: 0px;
+    margin-left: 10px;
 }
 .topleft{
 	grid-column: 1/7;
     display: flex;
-    margin-top: 40px;
+   
     flex-direction: column;
     justify-content: center;
     
@@ -234,17 +253,62 @@ h3{
 	flex-direction: column;
 	margin-left: 0px;
 	color: #799DAB;
+
 	
 }
 .contactlink{
 	text-align: center;
 }
 img{
-	height: 300px;
-	width: 300px;
+	height: auto;
+	width: 200px;
+}
+.titletext{
+	font-size: 30px;
+	
+}
+
+.spackpic img{
+	height: 150px;
+	width: 150px;
+	grid-gap: 50px;
+	padding: 30px;
+	margin-left: 30px;
+  	width: auto;
+  	text-align: justify;
+
+}
+
+.endee{
+	text-align: center;
+	font-family: "Calibre";
+	font-weight: 300
+}
+.contactlinktext {
+	text-align: center;
+	color: #F0790E;
+	text-decoration: none;
+	font-family: "Calibre";
+	font-weight: 500;
+	transition: text-shadow .1s linear
+	
+}
+.titletext{
+	font-size: 40px;
+	color: #799DAB;
+	font-family: "Calibre";
+	font-weight: 600;
+	text-align: left;
+	width: 100%;
+	margin-left: 20%;
+}
+.specialpack{
+	grid-column: 1/7;
+	margin-top: 10px;
 }
 
 }
+
 
 
 
