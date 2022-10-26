@@ -70,7 +70,7 @@ include "../components/header.php"; ?>
 		<p class="classBannertext">
 			Offering all types of organizational solutions, intranet software
 			can improve employee engagement, aid communication, and increase collaboration.
-			Modern intranets are now mostly cloud-based which allows global organizations
+			Modern intranets are now mostly cloud-based, which allows global organizations
 			to connect, share knowledge, and broadcast news quickly and easily.
 		</p>
 	</div>
