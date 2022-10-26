@@ -9,17 +9,18 @@
     grid-column: 4/7;
     display: flex;
     flex-direction: column;
-    width: 80%;
-    margin-left: 250px;
-    margin-right: 10%;
-    margin-top: 100px;
+    width: 100%;
+    margin-left: 25px;
+    /* margin-left: 250px; */
+    /* margin-right: 10%; */
+    /* margin-top: 100px; */
 }
 
-#secondheading img {
+/* #secondheading img {
     width: 750px;
     height: 450px;
     margin-bottom: 20px;
-}
+} */
 
 #secondheading ul {
     margin-left: 85px;
@@ -45,10 +46,8 @@
 
 .nobullet {
     list-style-type: none;
-    <<<<<<< HEAD padding: 0;
-    =======padding: 0;
+    padding: 0;
     margin-top: 25px;
-    > > > > > > > 30f1ea73b793abbdd0300b5034c329e438855022
 }
 
 .circles {
@@ -128,6 +127,7 @@
 #column {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .box1 p,
