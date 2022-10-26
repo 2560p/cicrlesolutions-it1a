@@ -298,6 +298,7 @@ footer div {
         margin: 0;
         grid-row: 4/5;
         grid-column: 2/3;
+        align-items: center;
     }
 
     footer section {
@@ -312,5 +313,9 @@ footer div {
     footer section {
         width: 32px;
         height: 32px;
+    }
+
+    footer p {
+        font-size: 16px;
     }
 }
