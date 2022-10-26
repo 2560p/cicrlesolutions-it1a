@@ -5,36 +5,30 @@ include "../components/header.php"; ?>
 				<div class="contactBox">
 					<form name="contact" action="contact.php" method="POST"
 					class="formBox">
-							<h1 class="contactTitle">Contact us</h1>
-							<div class="textInputBox">
-								<div class="boxForInput">
-									<input class="textInputs" type="text" name="firstName" placeholder=" First Name..." required>
-
-									<input class="textInputs" type="text" name="lastName" placeholder=" Last Name...">
-								</div>
-								<div class="boxForInput">
-									<input class="textInputs" type="text" name="email" placeholder=" Email..." required>
-
-									<input class="textInputs" type="text" name="contactNumber" placeholder=" Contact Number...">
-								</div>
+						<h1 class="contactTitle">Contact us</h1>
+						<div class="textInputBox">
+							<div class="boxForInput">
+								<input class="textInputs" type="text" name="firstName" placeholder=" First Name..." required>
+								<input class="textInputs" type="text" name="lastName" placeholder=" Last Name...">
 							</div>
+							<div class="boxForInput">
+								<input class="textInputs" type="email" name="email" placeholder=" Email..." required>
+								<input class="textInputs" type="text" name="contactNumber" placeholder=" Contact Number...">
+							</div>
+						</div>
 						
-							<div class="bottomForm">
-								<textarea name="message" class="textarea" placeholder=" Write an email..."></textarea>
-
-								<div class="submitContainer">
-									<input type="submit" name="submit" value="Send message" class="submit">
-
-									<?php
-										if ($_POST) {
+						<div class="bottomForm">
+							<textarea name="message" class="textarea" placeholder=" Write an email..."></textarea>
+							<div class="submitContainer">
+								<button type="submit" name="submit" class="submit">Send Message</button>
 									
-
-
-											echo '<div class="submitText">Thank you ' . $_POST["firstName"] . ', your form has been submited!</div>';
-										}
-									?>
-								</div>
+								<?php
+									if ($_POST) {
+										echo '<div class="submitText">Thank you ' . $_POST["firstName"] . ', your form has been submited!</div>';
+									}
+								?>
 							</div>
+						</div>
 					</form>
 
 					<div class="separationLine">
