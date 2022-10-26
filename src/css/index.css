@@ -262,12 +262,25 @@ b {
         grid-template-columns: 100%;
     }
 
-    header {
-        grid-column: 1/2;
+    #blue {
+        grid-template-columns: 100%;
     }
 
+    header,
+    #reviews,
+    #heading,
+    #workspace,
+    #dots,
+    #mainheading,
+    #mobilecircles,
+    #secondheading,
+    #packagesTitle,
+    #contactSection {
+        grid-column: 1/2
+    }
+
+
     #mainheading {
-        grid-column: 1/2;
         display: flex;
         justify-content: center;
         margin: 0;
@@ -291,13 +304,11 @@ b {
         display: flex;
         position: absolute;
         z-index: -1;
-        grid-column: 1/2;
         top: 275px;
         left: 65px;
     }
 
     #secondheading {
-        grid-column: 1/2;
         margin: 0;
         align-items: center;
     }
@@ -315,7 +326,6 @@ b {
 
     #packagesTitle {
         display: inline;
-        grid-column: 1/2;
         width: 100%;
         text-align: center;
         color: #799DAB;
@@ -326,9 +336,10 @@ b {
 
     #workspace,
     #dots {
-        grid-column: 1/2;
-        width: 70%;
-        margin-left: 15%;
+        /* width: 70%; */
+        margin-left: 10%;
+        margin-right: 10%;
+        width: auto;
     }
 
     #workspace {
@@ -338,14 +349,70 @@ b {
 
     #dots {
         margin-top: 0;
+        margin-bottom: 75px;
+    }
+
+    #workspace h3,
+    #dots h3 {
+        margin-top: 0;
+        margin-bottom: 15px;
     }
 
     .box1,
     .box2 {
         width: 100%;
-        border: none;
+        /* border: 20px solid; */
+        /* border: 0; */
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
         height: auto;
+
+        box-sizing: border-box;
+        padding: 10px;
+        /* padding: 5%; */
+    }
+
+    .box1 b,
+    .box1 p,
+    .box2 b,
+    .box2 p {
+        font-size: 15px;
+        width: auto;
+        margin: 0;
+    }
+
+    .box1 b,
+    .box2 b {
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+
+    .box1 p,
+    .box2 p {
+        margin-bottom: 10px;
+    }
+
+    .more {
+        margin-top: 15px;
+    }
+
+    .more a {
+        margin-right: 50px;
+    }
+
+    .more a h4 {
+        font-size: 20px;
+    }
+
+    #heading h2 {
+        font-size: 30px;
+    }
+
+    #heading p {
+        font-size: 20px;
+    }
+
+    #reviews div p {
+        font-size: 20px;
     }
 
     /* 
