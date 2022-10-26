@@ -92,7 +92,7 @@ include "../components/header.php"; ?>
 
 						</div>
 
-					</div>
+</div>
 	
 
 <div id="svgwave">
@@ -136,7 +136,7 @@ include "../components/header.php"; ?>
 
 
  <div class="spackpic">
-	<div>
+	<div class="encryptedFiles">
 		<img src="img/encrypted_file.PNG"
 			 alt="encrypted_file"
 			 height="80%"
@@ -146,12 +146,11 @@ include "../components/header.php"; ?>
 	</div>
 
 	<div class="police">
-			<img  src= "img/map.png" alt= "map image" width="250px" height="80%">
+			<img  src= "img/map.png" alt= "map image" width="250px" height="72%">
 		<h3 class="endee">Gps tracking for police</h3>
 	</div>
-  <div>
-  	<img src= "img/instant_messaging.png" alt= "instant messaging image" width="250px" height="80%"
-  	>	
+  <div class="instantMessaging">
+  	<img src= "img/instant_messaging.png" alt= "instant messaging image" width="250px" height="80%">	
   	<h3 class="endee">Instant messaging</h3>
   </div>
  </div>
