@@ -5,6 +5,8 @@
     margin-top: 50px;
 }
 
+
+
 #secondheading {
     grid-column: 4/7;
     display: flex;
@@ -60,12 +62,12 @@
 }
 
 .box1 {
-    height: 300px;
-    width: 340px;
+    height: 440px;
+    width: 400px;
     padding: 20px;
     margin: 50 px;
-    border: 10px solid #C7EAF8;
-    background-color: #C7EAF8;
+    border: 10px solid #DCF1F9;
+    background-color: #DCF1F9;
     z-index: -1;
     /* grid-column: 3/4; */
     display: flex;
@@ -74,12 +76,12 @@
 }
 
 .box2 {
-    height: 300px;
-    width: 340px;
+    height: 440px;
+    width: 400px;
     padding: 20px;
-    margin: 50 px;
-    border: 10px solid #C7EAF8;
-    background-color: #C7EAF8;
+    margin: 10px;
+    border: 10px solid #DCF1F9;
+    background-color: #DCF1F9;
     z-index: -1;
     /* grid-column: 5/6; */
     display: flex;
@@ -98,7 +100,8 @@
 
 #workspace h3,
 #dots h3 {
-    margin-bottom: 15px;
+    font-size: 44px;
+    margin-bottom: 20px;
     color: #799DAB;
 }
 
@@ -139,12 +142,18 @@
 .box2 p,
 b {
     color: #799DAB;
+    font-size: 26px;
 }
 
 .box2 p,
 b {
     margin-top: 12px;
     margin-bottom: 12px;
+}
+
+.box1 b,
+.box2 b {
+    font-weight: 400;
 }
 
 #wave {
