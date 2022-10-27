@@ -400,7 +400,7 @@ b {
     }
 
     .more a h4 {
-        font-size: 20px;
+        font-size: 32px;
     }
 
     #heading h2 {
@@ -414,6 +414,15 @@ b {
     #reviews div p {
         font-size: 20px;
     }
+	
+	#reviews div img {
+		margin: 0;
+		margin-left: auto;
+	}
+	
+	#contactSection ul li {
+		font-size: 46px;
+	}
 
     /* 
     .box1 {
