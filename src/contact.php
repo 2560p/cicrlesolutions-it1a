@@ -24,7 +24,7 @@ include "../components/header.php"; ?>
 									
 								<?php
 									if ($_POST) {
-										echo '<div class="submitText">Thank you ' . $_POST["firstName"] . ', your form has been submited!</div>';
+										echo '<div class="submitText">Thank you ' . $_POST["firstName"] . ', your form has been submitted!</div>';
 									}
 								?>
 							</div>
