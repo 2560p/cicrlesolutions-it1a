@@ -1,4 +1,4 @@
-<? $pageTitle = "Packages";
+<? $pageTitle = "packages";
 $cssFile = "packages";
 include "../components/header.php"; ?>
 <div class="tophalfleft">

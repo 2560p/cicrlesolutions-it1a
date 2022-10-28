@@ -1,4 +1,4 @@
-<? $pageTitle = "Contact us";
+<? $pageTitle = "contact us";
 $cssFile = "contact";
 include "../components/header.php"; ?>
 

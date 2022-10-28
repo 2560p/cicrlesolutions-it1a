@@ -1,4 +1,4 @@
-<? $pageTitle = "Frequently Asked Questions";
+<? $pageTitle = "frequently asked questions";
 $cssFile = "faq";
 include "../components/header.php"; ?>
 <div id="flexTitle">

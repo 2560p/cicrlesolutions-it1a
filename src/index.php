@@ -1,4 +1,4 @@
-<? $pageTitle = "it works!";
+<? $pageTitle = "circle solutions";
 $cssFile = "index";
 include "../components/header.php"; ?>
 

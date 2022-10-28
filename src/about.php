@@ -1,4 +1,4 @@
-<? $pageTitle = "About Us";
+<? $pageTitle = "about us";
 $cssFile = "about";
 include "../components/header.php"; ?>
 <div id="firstCircles">
