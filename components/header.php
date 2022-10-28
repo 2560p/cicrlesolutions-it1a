@@ -11,7 +11,7 @@
 <body>
     <div id="mainGrid">
         <header>
-            <a id="firstHref" href="/"><img src="img/circle_solutions_logo_01.png" alt="circle solutions logo" height="80"></a>
+            <a href="/"><img src="img/circle_solutions_logo_01.png" alt="circle solutions logo" height="80"></a>
             <ul>
                 <li id="packages"><a href="packages">Packages</a></li>
                 <li id="faq"><a href="faq">FAQ</a></li>
