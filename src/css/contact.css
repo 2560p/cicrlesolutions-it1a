@@ -114,6 +114,10 @@ header {
 	display: none;
 }
 
+.separationLine4k {
+	display: none;
+}
+
 button:hover {
 	background-color: #F0790E;
 	box-shadow: 1px 1px darkgray;
@@ -180,4 +184,42 @@ button:hover {
 	.submitText {
 		margin-top: 20px;
 	}
+}
+
+@media screen and (min-height: 960px) {
+	footer {
+		position: absolute;
+		bottom: 0;
+	}
+
+	.contactFormContainer {
+		height: 100%;
+	}
+
+	.textarea {
+		width: 1000px;
+		height: 320px;
+	}
+
+	.textInputs {
+		width: 450px;
+	}
+
+	.contactTitle {
+		font-size: 80px;
+	}
+
+	.separationLine4k {
+		display: block;
+	}
+
+	.separationLine {
+	display: none;
+	}
+	
+	.mapImage {
+	width: 380px;
+	height: 260px;
+	}
+
 }
