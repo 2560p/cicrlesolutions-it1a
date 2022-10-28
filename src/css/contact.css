@@ -6,7 +6,8 @@ header {
 .contactFormContainer {
 	background-color: #C7EAF8;
 	grid-column: 2/7;
-	margin: 30px 90px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	margin-bottom: 40px;
 	box-shadow: 5px 5px darkgray;
 	padding-top: 40px;
@@ -26,6 +27,7 @@ header {
 	margin-bottom: 20px;
 	width: 330px;
 	height: 50px;
+	font-size: 16px;
 }
 
 .textInputBox {
@@ -39,6 +41,7 @@ header {
 	resize: none;
 	padding-top: 5px;
 	margin-top: 15px;
+	font-size: 16px;
 }
 
 .boxForInput {
@@ -47,7 +50,8 @@ header {
 }
 
 .contactTitle {
-	margin-bottom: 10px;
+	margin-top: 14px;
+	margin-bottom: 14px;
 	color: #799DAB;
 	font-size: 50px;
 }
@@ -127,12 +131,9 @@ button:hover {
 		margin-left: 0;
 		margin-right: 0;
 		padding-top: 0;
-	}
-	
-	.contactBox {
 		flex-direction: column;
 	}
-	
+
 	.separationLine {
 		display: none;
 	}
