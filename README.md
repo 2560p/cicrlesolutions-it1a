@@ -1,14 +1,14 @@
 # circle solutions website
 the website sources are located in `src/` and `components/` folders.
 
-##Team tasks:
-    * Bohdan - header and footer
-    * Paul - overall structure / quality control
-    * Paul & Ada - home page
-    * Timothy - packages page
-    * Marijn - faq page
-    * Bohdan - about us page
-    * Nicanor - contact page
+## Team tasks:
+    - Bohdan - header and footer
+    - Paul - overall structure / quality control
+    - Paul & Ada - home page
+    - Timothy - packages page
+    - Marijn - faq page
+    - Bohdan - about us page
+    - Nicanor - contact page
 
 root files also include `docker-compose.yaml` to get the docker running correctly on every system, `nginx.conf` to have the web-server set up properly, `.gitignore` to not get the repo messy because of the editor config files, and this file (readme).
 
