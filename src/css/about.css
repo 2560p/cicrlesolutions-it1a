@@ -25,7 +25,7 @@
 }
 
 .firstText h2 {
-    color: #799DAB;
+    color: var(--blue-grey);
     font-size: 30px;
 }
 
@@ -36,7 +36,7 @@
 #vision {
     display: flex;
     grid-column: 2/3;
-    color: #799DAB;
+    color: var(--blue-grey);
     font-size: 40px;
     max-width: 175px;
     margin-left: 70px;
@@ -105,7 +105,7 @@ main {
 
     .firsttext div h2 {
         display: flex;
-        color: #799DAB;
+        color: var(--blue-grey);
         align-content: center;
         flex-direction: column-reverse;
         flex-wrap: wrap;
@@ -137,7 +137,7 @@ main {
     #mission {
         display: flex;
         align-self: center;
-        color: #799DAB;
+        color: var(--blue-grey);
         font-size: 40px;
         margin-top: 40px;
     }

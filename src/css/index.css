@@ -29,7 +29,7 @@
     margin-left: 85px;
     font-family: "Calibre";
     font-weight: 250;
-    color: #799DAB;
+    color: var(--blue-grey);
     font-size: 30px;
 }
 
@@ -37,13 +37,13 @@
     font-family: "Calibre";
     font-weight: 700;
     font-size: 75px;
-    color: #799DAB;
+    color: var(--blue-grey);
 }
 
 .subtitle {
     font-family: "Calibre";
     font-weight: 300;
-    color: #799DAB;
+    color: var(--blue-grey);
     font-size: 40px;
 }
 
@@ -67,7 +67,7 @@
     width: 400px;
     padding: 20px;
     margin: 50 px;
-    background-color: #DCF1F9;
+    background-color: var(--accent-blue);
     display: flex;
     justify-content: center;
 }
@@ -76,7 +76,7 @@
     height: 440px;
     width: 400px;
     padding: 20px;
-    background-color: #DCF1F9;
+    background-color: var(--accent-blue);
     display: flex;
     justify-content: center;
 }
@@ -96,7 +96,7 @@
     font-size: 44px;
     margin-bottom: 60px;
     margin-top: 60px;
-    color: #799DAB;
+    color: var(--blue-grey);
 }
 
 #dots {
@@ -124,11 +124,11 @@
 }
 
 .info {
-    color: #799DAB;
+    color: var(--blue-grey);
 }
 
 .info:hover {
-    color: #f0790e;
+    color: var(--orange);
 }
 
 
@@ -145,7 +145,7 @@
 .box1 p,
 .box2 p,
 b {
-    color: #799DAB;
+    color: var(--blue-grey);
     font-size: 26px;
 }
 
@@ -166,7 +166,7 @@ b {
 }
 
 #blue {
-    background-color: #DCF1F9;
+    background-color: var(--accent-blue);
     grid-column: 1/8;
     /* height: 200px; */
     display: grid;
@@ -178,7 +178,7 @@ b {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #799DAB;
+    color: var(--blue-grey);
     margin-bottom: 50px;
 }
 
@@ -219,7 +219,7 @@ b {
 #reviews div img {
     margin-top: -20px;
     height: 175px;
-    box-shadow: 5px -5px 0 0 #f0790e;
+    box-shadow: 5px -5px 0 0 var(--orange);
 }
 
 #mobilecircles {
@@ -239,13 +239,13 @@ b {
     text-align: center;
     font-size: 60px;
     font-weight: 400;
-    color: #799DAB;
+    color: var(--blue-grey);
 }
 
 #contactSection ul li a {
     font-weight: 700;
     text-decoration: none;
-    color: #f0790e;
+    color: var(--orange);
     transition: text-shadow .1s linear;
 }
 
@@ -328,7 +328,7 @@ b {
         display: inline;
         width: 100%;
         text-align: center;
-        color: #799DAB;
+        color: var(--blue-grey);
         font-size: 40px;
         font-weight: 700;
         margin-top: 150px;
@@ -414,15 +414,15 @@ b {
     #reviews div p {
         font-size: 20px;
     }
-	
-	#reviews div img {
-		margin: 0;
-		margin-left: auto;
-	}
-	
-	#contactSection ul li {
-		font-size: 46px;
-	}
+
+    #reviews div img {
+        margin: 0;
+        margin-left: auto;
+    }
+
+    #contactSection ul li {
+        font-size: 46px;
+    }
 
     /* 
     .box1 {

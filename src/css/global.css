@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+:root {
+    --orange: #f0790e;
+    --blue-grey: #799dab;
+    --light-blue: #c7eaf8;
+    --accent-blue: #dcf1f9;
+}
+
 /* fonts are loaded with a font-weight
    property, then this is applied to 
    differiantiate the text styles */
@@ -108,7 +115,7 @@ header ul li {
 }
 
 header a {
-    color: #799DAB;
+    color: var(--blue-grey);
     text-decoration: none;
 
     font-size: 18px;
@@ -117,7 +124,7 @@ header a {
 }
 
 header a:hover {
-    color: #F0790E;
+    color: var(--orange);
 }
 
 header ul {
@@ -141,7 +148,7 @@ footer {
     grid-column: 1/8;
     height: 150px;
 
-    background-color: #C7EAF8;
+    background-color: var(--light-blue);
 }
 
 footer section {
@@ -154,7 +161,7 @@ footer section {
     justify-content: center;
     align-items: center;
 
-    background-color: #799DAB;
+    background-color: var(--blue-grey);
     filter: drop-shadow(0 4px 4px rgba(0, 0, 0, .25));
 }
 
@@ -196,7 +203,7 @@ footer div {
 
 #contacts p {
     align-self: center;
-    color: #799DAB;
+    color: var(--blue-grey);
 }
 
 #location {
@@ -212,7 +219,7 @@ footer div {
 
 #location p {
     align-self: center;
-    color: #799DAB;
+    color: var(--blue-grey);
 }
 
 @media screen and (max-width: 576px) {

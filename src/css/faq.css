@@ -9,14 +9,14 @@
 .classTitle {
 	font-size: 70px;
 	margin-left: 150px;
-	color: #799DAB;
+	color: var(--blue-grey);
 	font-family: "Calibre";
 	font-weight: 700;
 }
 
 #Banner {
 	grid-column: 2/7;
-	display:grid;
+	display: grid;
 	grid-template-columns: repeat(7, 1fr);
 	width: 100%;
 }
@@ -32,7 +32,7 @@
 
 .classBannertitle {
 	font-size: 30px;
-	color: #799DAB;
+	color: var(--blue-grey);
 }
 
 .classBannertext {
@@ -54,7 +54,7 @@
 	padding: 0;
 	font-size: 50px;
 	padding: 0;
-	color: #799DAB;
+	color: var(--blue-grey);
 }
 
 .classQuestions {
@@ -64,7 +64,7 @@
 
 .classContactus {
 	text-align: center;
-	color: #F0790E;
+	color: var(--orange);
 	text-decoration: none;
 	font-family: "Calibre";
 	font-weight: 700;
@@ -95,10 +95,10 @@
 
 .classCircles1 {
 	width: 75%;
-	max-width:500px;
+	max-width: 500px;
 	margin-top: 50px;
 	margin-right: 15%;
-	right:0px;
+	right: 0px;
 	position: absolute;
 	z-index: -1;
 }
@@ -107,47 +107,47 @@
 	width: 75%;
 	max-width: 500px;
 	margin-top: 50px;
-	margin-right:15%;
+	margin-right: 15%;
 	position: absolute;
 	z-index: -1;
 }
 
 .classCircles3 {
 	width: 75%;
-	max-width:500px;
+	max-width: 500px;
 	margin-top: 50px;
 	position: absolute;
 	z-index: -1;
-	right:0px;
+	right: 0px;
 	margin-right: 5%;
 }
 
 @media screen and (max-width: 576px) {
-	
-	.classCircles1{
-		margin-right:15%;
-		margin-top:-45%;
+
+	.classCircles1 {
+		margin-right: 15%;
+		margin-top: -45%;
 	}
-	
-	.classCircles2{
-		display:none;
+
+	.classCircles2 {
+		display: none;
 	}
 
 	.classBannertitle {
-		font-size:20px;
+		font-size: 20px;
 	}
-	
+
 	.classBannertext {
 		grid-column: 1/8;
-		font-size:20px;
+		font-size: 20px;
 	}
-	
+
 	.classTitle {
 		font-size: 40px;
-		margin-left:20%;
-		margin-right:15%;
+		margin-left: 20%;
+		margin-right: 15%;
 	}
-	
+
 	#flexBanner {
 		grid-column: 1/8;
 	}
@@ -155,19 +155,19 @@
 	#flexTitle {
 		grid-column: 1/8;
 	}
-	
-	#flexContact{
+
+	#flexContact {
 		grid-column: 1/8;
 		display: flex;
 		margin-top: 40px;
 		margin-bottom: 90px;
 		justify-content: center;
 	}
-	
+
 	.classContact {
 		font-size: 35px;
 	}
-			
+
 	#Banner h2 {
 		grid-column: 1/7;
 	}
@@ -176,5 +176,5 @@
 		grid-column: 1/8;
 		margin-bottom: 40px;
 	}
-		
+
 }
