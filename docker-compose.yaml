@@ -2,10 +2,10 @@ version: '3'
 services:
     web:
         image: nginx:latest
-        container_name: cs-nginx
+        container_name: revision-cs-nginx
         entrypoint: ""
         ports:
-            - "80:80"
+            - "8000:80"
         volumes:
             - ./nginx.conf:/etc/nginx/nginx.conf
             - ./src:/src
@@ -13,7 +13,7 @@ services:
             - php
     php:
         image: php:latest
-        container_name: cs-php
+        container_name: revision-cs-php
         entrypoint: ""
         volumes:
             - ./src:/src
