@@ -1,6 +1,15 @@
 # circle solutions website
 the website sources are located in `src/` and `components/` folders
 
+Team tasks:
+    Bohdan - Header and Footer
+    Paul - Head and php linkage
+    Paul & Ada - Home page
+    Timothy - Packages page
+    Marijn - FAQ page
+    Bohdan - About us page
+    Nicanor - Contact page
+
 root files also include docker files (to have the project running on every system easily), `.gitignore` (for the macos' `.DS_Store`, and config files not to get changed by a mistake), and this file (readme)
 
 the structure of the website - the pages are located in `src/` folder; they do include some repetitive elements, which are located in `components/` folder. 
