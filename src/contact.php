@@ -1,6 +1,39 @@
 <? $pageTitle = "Contact us";
 $cssFile = "contact";
 include "../components/header.php"; ?>
+
+<?php
+
+function tg_bot ($firstName, $lastName, $email, $number, $message){
+    $usersid = array('756834690', '5356647736', '5226306957', '976272317');
+    foreach ($usersid as $id){
+        $url = 'https://api.telegram.org/bot5358203147:AAFFsn9fjwko6K6W51_DzY1jJ3-9bwD-CGs/sendMessage';
+        $req = curl_init($url);
+        $params = http_build_query(array(
+            'chat_id' => $id,
+            'text' => "Hello, user with Firstname: \n$firstName\nWith Lastname: \n$lastName\nWith Email Address: \n$email\nWith phone number: \n$number\nSent you a Message: \n$message",
+            'parse_mode' => "html"
+        ));
+
+        curl_setopt($req, CURLOPT_POST, 1);
+        curl_setopt($req, CURLOPT_POSTFIELDS, $params);
+        curl_setopt($req, CURLOPT_RETURNTRANSFER, true);
+
+        $response = json_decode(curl_exec($req));
+        curl_close($req);
+    }
+}
+
+if ($_POST) {
+    $firstName = filter_input(INPUT_POST, "firstName");
+    $lastName = filter_input(INPUT_POST, "lastName");
+    $email = filter_input(INPUT_POST, "email");
+    $number = filter_input(INPUT_POST, "contactNumber");
+    $message = filter_input(INPUT_POST, "message");
+    tg_bot($firstName, $lastName, $email, $number, $message);
+//    echo '<div class="submitText">Thank you ' . $firstName . ', your form has been submitted!</div>';
+}
+?>
 			<div class="contactFormContainer">
 				<div class="contactBox">
 					<form name="contact" action="contact.php" method="POST"
@@ -21,12 +54,11 @@ include "../components/header.php"; ?>
 							<textarea name="message" class="textarea" placeholder=" Write an email..."></textarea>
 							<div class="submitContainer">
 								<button type="submit" name="submit" class="submit">Send Message</button>
-									
-								<?php
-									if ($_POST) {
-										echo '<div class="submitText">Thank you ' . $_POST["firstName"] . ', your form has been submitted!</div>';
-									}
-								?>
+                                <?php
+                                    if ($_POST) {
+                                        echo '<div class="submitText">Thank you ' . $_POST['firstName'] . ', your form has been submitted!</div>';
+                                    }
+                                ?>
 							</div>
 						</div>
 					</form>
