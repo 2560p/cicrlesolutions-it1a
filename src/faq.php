@@ -1,4 +1,4 @@
-<? $pageTitle = "frequently asked questions";
+<?php $pageTitle = "frequently asked questions";
 $cssFile = "faq";
 include "../components/header.php"; ?>
 <div id="flexTitle">
@@ -80,4 +80,4 @@ include "../components/header.php"; ?>
         <li class="classContactus"><a href="contact.php" class="classContactus">Contact us</a></li>
     </ul>
 </div>
-<? include "../components/footer.php"; ?>
+<?php include "../components/footer.php"; ?>

@@ -1,4 +1,4 @@
-<? $pageTitle = "about us";
+<?php $pageTitle = "about us";
 $cssFile = "about";
 include "../components/header.php"; ?>
 <div id="firstCircles">
@@ -121,4 +121,4 @@ include "../components/header.php"; ?>
         </svg>
     </div>
 </main>
-<? include "../components/footer.php"; ?>
+<?php include "../components/footer.php"; ?>

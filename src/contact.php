@@ -1,4 +1,4 @@
-<? $pageTitle = "contact us";
+<?php $pageTitle = "contact us";
 $cssFile = "contact";
 include "../components/header.php"; ?>
 
@@ -111,4 +111,4 @@ if ($_POST) {
     </div>
 </div>
 
-<? include "../components/footer.php"; ?>
+<?php include "../components/footer.php"; ?>

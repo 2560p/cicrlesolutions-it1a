@@ -1,4 +1,4 @@
-<? $pageTitle = "packages";
+<?php $pageTitle = "packages";
 $cssFile = "packages";
 include "../components/header.php"; ?>
 <div class="tophalfleft">
@@ -142,4 +142,4 @@ include "../components/header.php"; ?>
 
 </div>
 
-<? include "../components/footer.php"; ?>
+<?php include "../components/footer.php"; ?>

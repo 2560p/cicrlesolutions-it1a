@@ -1,4 +1,4 @@
-<? $pageTitle = "circle solutions";
+<?php $pageTitle = "circle solutions";
 $cssFile = "index";
 include "../components/header.php"; ?>
 
@@ -62,7 +62,7 @@ include "../components/header.php"; ?>
         <p>All your documents manageable from your workspace</p>
     </div>
     <div class="more">
-        <a href="packages" style="text-decoration: none;">
+        <a href="packages.php" style="text-decoration: none;">
             <h4 class="info">More information</h4>
         </a>
         <svg width="38" height="16" viewBox="0 0 38 16" fill="none" xmlns="http://www.w3.org/2000/svg" transform="translate(10,5)">
@@ -83,7 +83,7 @@ include "../components/header.php"; ?>
         <b style="color: #f0790e;">And more...</b>
     </div>
     <div class="more">
-        <a href="packages" style="text-decoration: none;">
+        <a href="packages.php" style="text-decoration: none;">
             <h4 class="info">More information</h4>
         </a>
         <svg width="38" height="16" viewBox="0 0 38 16" fill="none" xmlns="http://www.w3.org/2000/svg" transform="translate(10,5)">
@@ -155,9 +155,9 @@ include "../components/header.php"; ?>
     <div id="contactSection">
         <ul>
             <li class="questions">Any questions? </li>
-            <li><a href="contact">Contact us</a></li>
+            <li><a href="contact.php">Contact us</a></li>
         </ul>
     </div>
 </div>
 
-<? include "../components/footer.php"; ?>
+<?php include "../components/footer.php"; ?>
